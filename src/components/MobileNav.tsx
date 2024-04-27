@@ -13,7 +13,7 @@ export const Rings = () => {
 export const SideLines = () => {
   return (
     <>
-      <div className="absolute top-0  left-5 md:left-7 w-0.5 h-full bg-dark-3"></div>
+      <div className="absolute top-0  left-5   md:left-7 w-0.5 h-full bg-dark-3"></div>
       <div className="absolute top-0  right-5  md:right-7 w-0.5 h-full bg-dark-3"></div>
     </>
   );
@@ -31,7 +31,7 @@ export const BackgroundCircles = () => {
 
 const MobileNav = () => {
   return (
-    <div className="absolute overflow-hidden w-full h-[calc(100%-5rem)] flex justify-center items-center bg-transparent top-[4.5rem] left-0 right-0 bottom-0 lg:hidden">
+    <div className="absolute overflow-hidden w-full h-[calc(100%-5rem)] flex justify-center items-center bg-dark-1 z-50  top-[4.5rem] left-0 right-0 bottom-0 lg:hidden">
       <div className="flex z-50 flex-col justify-center items-center  gap-16">
         {navigation.map((item) => (
           <div key={item.id}>

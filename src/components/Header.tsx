@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { brainwave } from "../assets";
 import { navigation } from "../constants/data";
 import Button from "./Button";
-import HamburgerMenu from "./design/HamburgerMenu";
+import HamburgerMenu from "./HamburgerMenu";
 import MobileNav from "./MobileNav";
 import { useState } from "react";
 

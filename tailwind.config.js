@@ -69,7 +69,16 @@ export default {
   plugins: [
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
-      addComponents({});
+      addComponents({
+        ".h1": {
+          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+            {},
+        },
+        ".p": {
+          "@apply text-sm leading-[1.5rem] md:text-base md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-[2rem] font-normal":
+            {},
+        },
+      });
       addUtilities({});
     }),
   ],
