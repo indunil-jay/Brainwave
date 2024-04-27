@@ -31,6 +31,11 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
 @layer base {
   body {
     @apply font-sans text-light-1 bg-dark-1;

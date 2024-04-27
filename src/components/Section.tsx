@@ -1,13 +1,17 @@
 import { FaPlus } from "react-icons/fa";
 
 type Props = {
+  id: string;
   children: React.ReactNode;
   withPlus?: boolean;
 };
 
-const Section = ({ children, withPlus = true }: Props) => {
+const Section = ({ children, withPlus = true, id }: Props) => {
   return (
-    <div className="relative px-6 py-10  xl:px-8 2xl:px-10">
+    <section
+      id={id}
+      className="relative px-6 py-10  xl:px-8 2xl:px-10 overflow-hidden"
+    >
       <div className="absolute w-[1px] top-0 left-5 bg-dark-3 h-full"></div>
       <div className="absolute w-[1px] top-0 right-5 bg-dark-3 h-full"></div>
 
@@ -23,7 +27,7 @@ const Section = ({ children, withPlus = true }: Props) => {
       )}
 
       {children}
-    </div>
+    </section>
   );
 };
 
