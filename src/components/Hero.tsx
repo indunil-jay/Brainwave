@@ -6,6 +6,7 @@ import PopCard from "./PopCard";
 import Section from "./Section";
 import BackgroundCircles from "./design/Circles";
 import { useRef } from "react";
+import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
@@ -94,6 +95,7 @@ const Hero = () => {
 
         <BackgroundCircles parallaxRef={parallaxRef} />
       </div>
+      <CompanyLogos styles="hidden relative z-10 mt-20 lg:block" />
     </Section>
   );
 };

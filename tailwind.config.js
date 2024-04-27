@@ -42,12 +42,18 @@ export default {
         code: "var(--font-code)",
         grotesk: "var(--font-grotesk)",
       },
+
       transitionDuration: {
         DEFAULT: "200ms",
       },
       transitionTimingFunction: {
         DEFAULT: "linear",
       },
+
+      letterSpacing: {
+        tagline: ".15em",
+      },
+
       borderWidth: {
         DEFAULT: "0.0625rem",
       },
