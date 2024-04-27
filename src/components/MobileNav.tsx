@@ -29,15 +29,20 @@ export const BackgroundCircles = () => {
   );
 };
 
-const MobileNav = () => {
+type Props = {
+  onClick: () => void;
+};
+
+const MobileNav = ({ onClick }: Props) => {
   return (
-    <div className="absolute overflow-hidden w-full h-[calc(100%-5rem)] flex justify-center items-center bg-dark-1 z-50  top-[4.5rem] left-0 right-0 bottom-0 lg:hidden">
-      <div className="flex z-50 flex-col justify-center items-center  gap-16">
+    <div className="absolute overflow-hidden w-full h-full flex justify-center items-start bg-dark-1 z-50  top-[4.5rem] left-0 right-0 bottom-0 lg:hidden">
+      <div className="flex flex-col z-50   items-center mt-8  gap-14">
         {navigation.map((item) => (
           <div key={item.id}>
             <a
+              onClick={onClick}
               href={item.url}
-              className={`inline-block font-code uppercase text-xl "text-light-1" font-semibold transition-colors hover:text-primary-1 leading-5 `}
+              className={`inline-block font-code uppercase text-lg "text-light-1"  transition-colors hover:text-primary-1 leading-5 `}
             >
               {item.name}
             </a>

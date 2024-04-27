@@ -41,7 +41,7 @@ const Hero = () => {
         </Button>
       </div>
 
-      <div className="relative  max-w-[32rem] lg:max-w-[64rem] mx-auto mt-12 xl:mb-24 ">
+      <div className="relative  max-w-[32rem] lg:max-w-[64rem] mx-auto mt-20 xl:mb-24 ">
         <div className="relative rounded-2xl z-10 p-0.5 bg-conic-gradient ">
           <ScrollParallax isAbsolutelyPositioned zIndex={50}>
             <div className="hidden  absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-light-6/40 backdrop-blur border border-light-1/10 rounded-2xl xl:flex">
