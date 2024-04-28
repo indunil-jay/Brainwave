@@ -21,6 +21,10 @@ import {
   raindrop,
   searchMd,
   slack,
+  tab1,
+  tab2,
+  tab3,
+  tab4,
   yourlogo,
 } from "../assets";
 
@@ -192,5 +196,36 @@ export const collabApps = [
     icon: raindrop,
     width: 38,
     height: 32,
+  },
+];
+
+export const tabContent = [
+  {
+    id: 1,
+    img: tab1,
+    title: "Sign up",
+    text: "Create an account with Brainwave - AI chat app by providing your name, email address, and password. Once you sign up, you can start exploring the app.",
+    btnText: "Connect Now",
+  },
+  {
+    id: 2,
+    img: tab2,
+    title: "Connect with AI chatbot",
+    text: "Connect with the AI chatbot to start the conversation. The chatbot uses natural language processing to understand your queries and provide relevant responses.",
+    btnText: "Connect Now",
+  },
+  {
+    id: 3,
+    img: tab3,
+    title: "Get Personalized Advices",
+    text: "Based on the conversation with the AI chatbot, you will receive personalized recommendations related to your queries. The chatbot is trained to understand your preferences and provide customized suggestions.",
+    btnText: "Connect Now",
+  },
+  {
+    id: 4,
+    img: tab4,
+    title: "Explore and Engage",
+    text: "Explore the recommendations provided by the AI chatbot and engage with the app. You can ask questions, provide feedback, and share your experience with the chatbot.",
+    btnText: "Connect Now",
   },
 ];

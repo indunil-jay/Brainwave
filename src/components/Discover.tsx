@@ -23,7 +23,7 @@ const Discover = () => {
   };
   return (
     <Section id="discover" withPlus={false}>
-      <div className=" relative isolate z-20 lg:min-h-[40rem] 2xl:w-[80%] xl:w-[88%] w-[80%]   mx-auto mb-[50rem] lg:mb-[16rem]">
+      <div className=" relative isolate z-20 lg:min-h-[40rem] 2xl:w-[72%] xl:w-[84%] w-[94%]   mx-auto mb-[50rem] lg:mb-[16rem]">
         <div className="flex gap-5 absolute bottom-0">
           <button
             onClick={goBack}

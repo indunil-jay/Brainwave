@@ -79,7 +79,16 @@ import discover1 from "./discover/1.png";
 import discover2 from "./discover/2.png";
 import discover3 from "./discover/3.png";
 
+import tab1 from "./tabs/1.png";
+import tab2 from "./tabs/2.png";
+import tab3 from "./tabs/3.png";
+import tab4 from "./tabs/4.png";
+
 export {
+  tab1,
+  tab2,
+  tab3,
+  tab4,
   discover1,
   discover2,
   discover3,

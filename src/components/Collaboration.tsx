@@ -6,7 +6,7 @@ import Section from "./Section";
 const Collaboration = () => {
   return (
     <Section id="collaboration">
-      <div className="2xl:w-[80%] xl:w-[88%] w-[80%]  relative mx-auto lg:my-24 mb-[20rem]">
+      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto lg:my-24 mb-[20rem]">
         <div className="relative grid grid-cols-1  gap-[10rem] lg:gap-0  lg:grid-cols-[1.25fr_2fr]">
           <div className="pr-2 ">
             <h2 className="h2 mb-4 md:mb-8">

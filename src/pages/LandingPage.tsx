@@ -3,6 +3,7 @@ import Discover from "../components/Discover";
 import Features from "../components/Features";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import TabSection from "../components/TabSection";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <Features />
       <Discover />
       <Collaboration />
+      <TabSection />
     </>
   );
 };
