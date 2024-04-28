@@ -4,13 +4,14 @@ type Props = {
   id: string;
   children: React.ReactNode;
   withPlus?: boolean;
+  styles?: string;
 };
 
-const Section = ({ children, withPlus = true, id }: Props) => {
+const Section = ({ children, withPlus = true, id, styles }: Props) => {
   return (
     <section
       id={id}
-      className="relative px-6 py-10  xl:px-8 2xl:px-10 overflow-hidden"
+      className={`relative px-6 py-10  xl:px-8 2xl:px-10 overflow-hidden ${styles}`}
     >
       <div className="absolute w-[1px] top-0 left-5 bg-dark-3 h-full"></div>
       <div className="absolute w-[1px] top-0 right-5 bg-dark-3 h-full"></div>
@@ -27,6 +28,7 @@ const Section = ({ children, withPlus = true, id }: Props) => {
       )}
 
       {children}
+      <div className="absolute w-[calc(100%-40px)] left-5 right-5 mx-auto h-[1px] bottom-0  bg-dark-3 "></div>
     </section>
   );
 };
