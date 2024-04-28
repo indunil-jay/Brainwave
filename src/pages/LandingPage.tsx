@@ -1,3 +1,4 @@
+import Collaboration from "../components/Collaboration";
 import Discover from "../components/Discover";
 import Features from "../components/Features";
 import Header from "../components/Header";
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <Hero />
       <Features />
       <Discover />
+      <Collaboration />
     </>
   );
 };
