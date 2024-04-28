@@ -3,6 +3,9 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitImage2,
+  discover1,
+  discover2,
+  discover3,
   file02,
   homeSmile,
   notification2,
@@ -76,5 +79,32 @@ export const benefits = [
     backgroundUrl: "assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+  },
+];
+
+export const discovers = [
+  {
+    id: 1,
+    title: "Unlock the power of AI",
+    text: " BrainWave unlock the potential of Al-powered applications",
+    btnText: "See how it works",
+    mainImg: discover1,
+    cardText: "Code generation",
+  },
+  {
+    id: 2,
+    title: "Transform Your converations with AI",
+    text: " BrainWave unlock the potential of Al-powered applications",
+    btnText: "See how it works",
+    mainImg: discover2,
+    cardText: "Education Feedback",
+  },
+  {
+    id: 3,
+    title: "Discover the benefits of AI chat",
+    text: " BrainWave unlock the potential of Al-powered applications",
+    btnText: "See how it works",
+    mainImg: discover3,
+    cardText: "video generation",
   },
 ];

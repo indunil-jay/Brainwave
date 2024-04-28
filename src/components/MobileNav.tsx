@@ -35,8 +35,8 @@ type Props = {
 
 const MobileNav = ({ onClick }: Props) => {
   return (
-    <div className="absolute overflow-hidden w-full h-full flex justify-center items-start bg-dark-1 z-50  top-[4.5rem] left-0 right-0 bottom-0 lg:hidden">
-      <div className="flex flex-col z-50   items-center mt-8  gap-14">
+    <div className="fixed overflow-hidden w-full h-full flex justify-center items-start bg-dark-1 z-40  top-0 left-0 right-0 bottom-0 lg:hidden">
+      <div className="flex flex-col z-50   items-center mt-[14rem]  gap-14">
         {navigation.map((item) => (
           <div key={item.id}>
             <a

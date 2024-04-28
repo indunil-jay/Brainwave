@@ -4,7 +4,7 @@ import { benefits } from "../constants/data";
 import { useState } from "react";
 
 const Features = () => {
-  const [cardIndex, setCardIndex] = useState<number>(3);
+  const [cardIndex, setCardIndex] = useState<number>(2);
 
   const moveCard = (dotIndex: number) => {
     setCardIndex((index) => {
@@ -14,8 +14,8 @@ const Features = () => {
   };
 
   return (
-    <Section id="features" styles="-mt-2">
-      <div className="mt-20">
+    <Section id="features" styles="-mt-2" withBottomDividers={false}>
+      <div className="mt-20 z-20 isolate">
         <h2 className="h2 text-center px-[3%] sm:px-[12%] md:px-[20%] lg:px-[24%] xl:px-[24.5%] 2xl:px-[28%]">
           Chat Smarter, Not Harder with Brainwave
         </h2>
@@ -31,7 +31,7 @@ const Features = () => {
               {benefits.map((card) => {
                 return (
                   <div
-                    className="group relative block md:max-w-[24rem] p-2 border rounded-3xl  shadow-2xl shadow-blue-500/20"
+                    className="group relative block w-[24rem] p-2 border rounded-3xl  shadow-2xl shadow-blue-500/20"
                     key={card.id}
                   >
                     <div className="min-h-[22rem]  bg- p-[2.4rem] flex flex-col justify-around  rounded-3xl">

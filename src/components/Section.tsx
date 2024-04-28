@@ -4,10 +4,17 @@ type Props = {
   id: string;
   children: React.ReactNode;
   withPlus?: boolean;
+  withBottomDividers?: boolean;
   styles?: string;
 };
 
-const Section = ({ children, withPlus = true, id, styles }: Props) => {
+const Section = ({
+  children,
+  withPlus = true,
+  id,
+  styles,
+  withBottomDividers = true,
+}: Props) => {
   return (
     <section
       id={id}
@@ -28,7 +35,9 @@ const Section = ({ children, withPlus = true, id, styles }: Props) => {
       )}
 
       {children}
-      <div className="absolute w-[calc(100%-40px)] left-5 right-5 mx-auto h-[1px] bottom-0  bg-dark-3 "></div>
+      {withBottomDividers && (
+        <div className="absolute w-[calc(100%-40px)] left-5 right-5 mx-auto h-[1px] bottom-0  bg-dark-3 "></div>
+      )}
     </section>
   );
 };

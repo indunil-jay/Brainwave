@@ -4,7 +4,7 @@ import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
-import smallSphere from "./4-small.png";
+
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
@@ -75,7 +75,14 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import discover1 from "./discover/1.png";
+import discover2 from "./discover/2.png";
+import discover3 from "./discover/3.png";
+
 export {
+  discover1,
+  discover2,
+  discover3,
   brainwave,
   check,
   check2,
@@ -84,7 +91,6 @@ export {
   brainwaveWhiteSymbol,
   play,
   gradient,
-  smallSphere,
   grid,
   yourlogo,
   homeSmile,
