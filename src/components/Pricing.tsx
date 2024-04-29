@@ -27,7 +27,7 @@ const Pricing = () => {
         </div>
 
         {/*  */}
-        <div className="flex flex-col items-center  ">
+        <div className="flex flex-col items-center mt-10 ">
           <Brackets> get started with brainwave</Brackets>
           <h2 className="h2 py-2 my-4">Pay once, use forever</h2>
         </div>
