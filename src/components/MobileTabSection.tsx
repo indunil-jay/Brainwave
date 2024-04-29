@@ -1,5 +1,3 @@
-// import TabDetails from "./TabDetails";
-
 import { useState } from "react";
 import { tabContent } from "../constants/data";
 import TabDetails from "./TabDetails";

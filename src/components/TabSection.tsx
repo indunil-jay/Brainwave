@@ -18,23 +18,17 @@ const TabSection = () => {
     <Section id="signup">
       <div className="2xl:w-[72%] xl:w-[84%] w-[94%]   mx-auto">
         <MobileTabSection />
-        {/* grid */}
-        <div className="grid grid-cols-[2fr_1.8fr] gap-2">
+
+        <div className="hidden lg:block ">
           {tabContent.map((item) => {
             return (
               activeTab === (Number(item.id) || 1) && (
-                <div key={item.id}>
+                <div key={item.id} className="grid grid-cols-[2fr_1.8fr] gap-2">
                   <div className="w-full hidden lg:flex  justify-start ">
                     <TabImage image={item.img} />
                   </div>
 
                   <div className="hidden lg:flex flex-col justify-center ">
-                    {/* <div className="">
-                      <Brackets>How It work : 01. </Brackets>
-                      <h2 className="h2 mb-5">{item.title}</h2>
-                      <p className="p2 text-light-2 mb-7">{item.text}</p>
-                      <Button>{item.btnText}</Button>
-                    </div> */}
                     <TabDetails item={item} />
                   </div>
                 </div>
@@ -46,13 +40,14 @@ const TabSection = () => {
         {/* tabs */}
         <div className="hidden lg:grid  group  grid-cols-4 gap-8 pt-10">
           {tabContent.map((item) => (
-            <div
+            <button
+              aria-label={item.title}
               onClick={() => handleClick(Number(item.id))}
               key={item.id}
               className={`cursor-pointer pt-8 border-t-[2px] border-light-2/10 transition-colors   ${
                 item.id === activeTab
                   ? "border-primary-1 "
-                  : "hover:border-light-2/50 "
+                  : "hovert:border-light-2/50 "
               }`}
             >
               <p className="font-grotesk tracking-tagline text-xs uppercase  text-light-1/50">
@@ -66,7 +61,7 @@ const TabSection = () => {
               >
                 {item.text}
               </p>
-            </div>
+            </button>
           ))}
         </div>
       </div>
