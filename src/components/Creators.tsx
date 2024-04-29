@@ -26,6 +26,7 @@ const Creators = () => {
               <img
                 src={service1}
                 className="w-full h-full object-cover object-right"
+                alt="robot-image-1"
               />
             </div>
 
@@ -64,7 +65,7 @@ const Creators = () => {
               <div className="w-full h-full">
                 <img
                   src={service2}
-                  alt=""
+                  alt="robot-image-2"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -76,26 +77,26 @@ const Creators = () => {
                 </p>
               </div>
 
-              <div className="absolute top-[10%] w-full left-[28%] ">
+              <div className="absolute top-[10%] w-full lg:left-[28%] ">
                 <IdeaCardRightArrow />
               </div>
             </div>
 
-            <div className="border-light-1/10 rounded-3xl h-[48rem] w-full overflow-hidden bg-dark-2 p-8">
-              <div className="mt-10 mb-5">
-                <h2 className="h2 ">Video generation</h2>
-                <p className="p3 mb-12">
+            <div className="border-light-1/10 rounded-3xl  w-full overflow-hidden bg-dark-2 p-6 lg:p-12">
+              <div className="lg:mt-10 mb-5">
+                <h2 className="h2 mt-5">Video generation</h2>
+                <p className="p3 mt-3 mb-12 lg:pr-16">
                   The world’s most powerful AI photo and video art generation
                   engine.What will you create?
                 </p>
 
-                <div className="flex justify-between">
+                <div className="flex justify-center flex-wrap gap-6 items-center ">
                   {videoIcons.map((item) => (
                     <div
                       key={item.id}
                       className={`${
                         item.active
-                          ? "w-[4.5rem] rounded-xl aspect-square bg-conic-gradient flex justify-center items-center"
+                          ? "w-[4.5rem] rounded-xl aspect-square bg-conic-gradient flex justify-center items-center "
                           : ""
                       }`}
                     >
@@ -116,12 +117,15 @@ const Creators = () => {
                 </div>
               </div>
 
-              <div className="relative mt-10  bg-dark-1 border-light-1/10   border rounded-2xl">
-                <div className="w-full h-[25rem]">
-                  <img src={service3} className="h-full w-full object-cover" />
+              <div className="relative mt-10  bg-dark-1 border-light-1/10   border rounded-2xl overflow-hidden">
+                <div className="w-full  backdrop-sepia-0 bg-light-1/10  ">
+                  <img
+                    src={service3}
+                    className="h-full w-full object-cover backdrop-saturate-50"
+                  />
                 </div>
 
-                <div className="absolute top-[12%] left-[8%]">
+                <div className="absolute top-[15%] left-[8%]">
                   <IdeaCardLeftArrow />
                 </div>
 
