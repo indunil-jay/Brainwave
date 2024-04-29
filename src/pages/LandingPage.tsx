@@ -1,4 +1,5 @@
 import Collaboration from "../components/Collaboration";
+import Creators from "../components/Creators";
 import Discover from "../components/Discover";
 import Features from "../components/Features";
 import Header from "../components/Header";
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <Discover />
       <Collaboration />
       <TabSection />
+      <Creators />
     </>
   );
 };

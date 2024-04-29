@@ -23,7 +23,7 @@ const TabSection = () => {
           {tabContent.map((item) => {
             return (
               activeTab === (Number(item.id) || 1) && (
-                <>
+                <div key={item.id}>
                   <div className="w-full hidden lg:flex  justify-start ">
                     <TabImage image={item.img} />
                   </div>
@@ -37,7 +37,7 @@ const TabSection = () => {
                     </div> */}
                     <TabDetails item={item} />
                   </div>
-                </>
+                </div>
               )
             );
           })}

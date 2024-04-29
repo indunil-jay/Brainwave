@@ -80,6 +80,10 @@ export default {
         ".h5": {
           "@apply text-2xl leading-normal": {},
         },
+
+        ".p3": {
+          "@apply text-base leading-6 font-light  text-light-3": {},
+        },
         ".p2": {
           "@apply font-light text-sm leading-6 md:text-base": {},
         },

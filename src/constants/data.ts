@@ -3,6 +3,9 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitImage2,
+  check,
+  chromecast,
+  disc02,
   discord,
   discover1,
   discover2,
@@ -19,8 +22,11 @@ import {
   plusSquare,
   protopie,
   raindrop,
+  recording01,
+  recording03,
   searchMd,
   slack,
+  sliders04,
   tab1,
   tab2,
   tab3,
@@ -228,4 +234,30 @@ export const tabContent = [
     text: "Explore the recommendations provided by the AI chatbot and engage with the app. You can ask questions, provide feedback, and share your experience with the chatbot.",
     btnText: "Connect Now",
   },
+];
+
+export const generativeContents = [
+  {
+    id: 1,
+    symbol: check,
+    text: "Photo generating",
+  },
+  {
+    id: 2,
+    symbol: check,
+    text: "Photo photo enhance",
+  },
+  {
+    id: 3,
+    symbol: check,
+    text: "Seamless intergration",
+  },
+];
+
+export const videoIcons = [
+  { id: 1, symbol: recording03 },
+  { id: 2, symbol: recording01 },
+  { id: 3, symbol: disc02, active: true },
+  { id: 4, symbol: chromecast },
+  { id: 5, symbol: sliders04 },
 ];

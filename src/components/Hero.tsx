@@ -1,5 +1,5 @@
 import { ScrollParallax } from "react-just-parallax";
-import { curve, heroBackground, loading, robot } from "../assets";
+import { curve, heroBackground, robot } from "../assets";
 import { heroIcons } from "../constants/data";
 import Button from "./Button";
 import PopCard from "./PopCard";
@@ -7,6 +7,7 @@ import Section from "./Section";
 import BackgroundCircles from "./design/Circles";
 import { useRef } from "react";
 import CompanyLogos from "./CompanyLogos";
+import GeneratingText from "./design/GeneratingText";
 
 const Hero = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
@@ -64,12 +65,7 @@ const Hero = () => {
             />
           </ScrollParallax>
 
-          <div className="absolute bottom-5 left-0 right-0 z-50 flex gap-3 md:gap-8 items-center w-[88%] md:w-[60%] mx-auto bg-dark-2/90  px-4 md:px-6 py-4 rounded-full">
-            <div className="w-5 h-5">
-              <img src={loading} alt="loading images" />
-            </div>
-            <span> AI is generating</span>
-          </div>
+          <GeneratingText />
 
           <div className="relative  bg-dark-1 rounded-[1rem]">
             <div className="h-[1.4rem] bg-dark-7 rounded-t-[0.9rem]" />
