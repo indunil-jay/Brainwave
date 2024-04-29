@@ -77,8 +77,13 @@ export default {
           "@apply xl:text-[3rem] xl:leading-[3.75rem] lg:text-[2.5rem] lg:leading-[3.5rem] md:text-[2rem] leading-[2.5rem] text-[1.75rem] font-normal":
             {},
         },
+
         ".h5": {
           "@apply text-2xl leading-normal": {},
+        },
+
+        ".h4": {
+          "@apply  text-[2rem] leading-[3rem]": {},
         },
 
         ".p3": {

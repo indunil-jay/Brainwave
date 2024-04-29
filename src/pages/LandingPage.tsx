@@ -4,6 +4,7 @@ import Discover from "../components/Discover";
 import Features from "../components/Features";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Pricing from "../components/Pricing";
 import TabSection from "../components/TabSection";
 
 const LandingPage = () => {
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <Collaboration />
       <TabSection />
       <Creators />
+      <Pricing />
     </>
   );
 };

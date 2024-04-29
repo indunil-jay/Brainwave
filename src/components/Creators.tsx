@@ -7,8 +7,8 @@ import IdeaCardRightArrow from "./design/IdeaCardRightArrow";
 
 const Creators = () => {
   return (
-    <Section id="creators">
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto mb-[20rem]">
+    <Section id="creators" withBottomDividers={false}>
+      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto ">
         <div className="flex flex-col justify-center items-center my-8">
           <h2 className="h2 capitalize">Generative AI made for creators.</h2>
           <p className="p2 mt-3 text-light-4">

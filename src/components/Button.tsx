@@ -17,9 +17,14 @@ const Button = ({
   withArrow = false,
   whiteBtn,
 }: Props) => {
-  const classBtn = `group outline-none rounded-md font-code font-semibold py-2 xl:py-3  px-3.5  xl:px-4  2xl:px-6  flex items-center  text-xs leading-5 uppercase transition-colors border  border-light-1/50   ${styles} ${
-    whiteBtn ? "hover:text-dark-1 hover:bg-light-1" : "hover:text-light-1"
-  }`;
+  const white = whiteBtn
+    ? "hover:text-dark-1 hover:bg-light-1"
+    : "hover:text-light-1";
+
+  const classBtn =
+    ` group outline-none rounded-md font-code font-semibold py-2 xl:py-3  px-3.5  xl:px-4  2xl:px-6  flex items-center  text-xs leading-5 uppercase transition-all  border  border-light-1/50 ${styles} ` +
+    white;
+
   const classSpan = `inline-block ${
     withArrow ? "flex items-center  gap-2" : ""
   } `;

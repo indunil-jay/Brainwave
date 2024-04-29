@@ -261,3 +261,45 @@ export const videoIcons = [
   { id: 4, symbol: chromecast },
   { id: 5, symbol: sliders04 },
 ];
+
+export const pricing = [
+  {
+    id: 1,
+    titleColor: "text-primary-2",
+    title: "Basic",
+    description: "AI chatbot, personalized recommendations",
+    price: "0",
+    btnText: "Get Started",
+    features: [
+      "An AI chatbot that can understand your queries",
+      "Personalized recommendations based on your preferences",
+      "Ability to explore the app and its features without any cost",
+    ],
+  },
+  {
+    id: 2,
+    title: "Premium",
+    titleColor: "text-primary-1",
+    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    price: "9.99",
+    btnText: "Get Started",
+    features: [
+      "An advanced AI chatbot that can understand complex queries",
+      "An analytics dashboard to track your conversations",
+      "Priority support to solve issues quickly",
+    ],
+  },
+  {
+    id: 3,
+    title: "Enterprise",
+    titleColor: "text-primary-3",
+    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    price: null,
+    btnText: "Contact us",
+    features: [
+      "An AI chatbot that can understand your queries",
+      "Personalized recommendations based on your preferences",
+      "Ability to explore the app and its features without any cost",
+    ],
+  },
+];
