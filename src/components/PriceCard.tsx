@@ -16,7 +16,7 @@ type Props = {
 const PriceCard = ({ data }: Props) => {
   return (
     <div
-      className="w-[25rem] h-[40rem] border border-light-1/10 rounded-3xl px-4 py-8"
+      className="max-w-[25rem] h-[40rem] border border-light-1/10 rounded-3xl px-4 py-8"
       key={data.id}
     >
       <h4 className={`h4 mb-6 ${data.titleColor && data.titleColor}`}>
