@@ -11,7 +11,7 @@ const PopCard = ({ title, styles }: PropS) => {
     <div
       className={`${
         styles || ""
-      } flex items-center p-4 pr-6  bg-light-6/40 backdrop-blur border border-light-1/10 rounded-2xl gap-5`}
+      } flex items-center p-4 pr-6  bg-light-6/40 backdrop-blur border border-light-1/10 rounded-2xl gap-5 pointer-events-none`}
     >
       <div className="w-[4rem] h-[4rem] rounded-xl overflow-hidden">
         <img

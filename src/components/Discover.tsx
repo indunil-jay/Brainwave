@@ -24,6 +24,60 @@ const Discover = () => {
   return (
     <Section id="discover" withPlus={false}>
       <div className=" relative isolate z-20 lg:min-h-[40rem] 2xl:w-[72%] xl:w-[84%] w-[94%]   mx-auto mb-[50rem] lg:mb-[16rem]">
+        <div className=" ">
+          {discovers.map((discover, index) => {
+            return (
+              active === index && (
+                <div
+                  key={discover.id}
+                  className="grid  grid-cols-1 lg:grid-cols-[1.5fr_2fr] xl:grid-cols-[1.25fr_2fr] "
+                >
+                  <div className="px-2 min-h-[20rem]    lg:h-auto">
+                    <h2 className="mb-6 h2 text-start pr-12 lg:pr-4">
+                      {discover.title}
+                    </h2>
+                    <p className="text-base w-[80%] leading-6 mb-8 text-light-3">
+                      {discover.text}
+                    </p>
+                    <Button
+                      styles="mb-6"
+                      ariaLabel={`discover-slides-btn-${discover.id}`}
+                    >
+                      {discover.btnText}
+                    </Button>
+                  </div>
+
+                  <div className="relative flex justify-center">
+                    <div className="absolute flex justify-end gap-20  lg:left-[16rem] top-[8rem]">
+                      <div className="relative w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/50">
+                        <div className="absolute bottom-6 left-0 right-0 z-20 mx-auto px-16 lg:px-12">
+                          <PopCard title={discover.cardText} />
+                        </div>
+
+                        <div className="absolute w-[4rem] h-[4rem] right-[2rem] top-[2rem] pointer-events-none">
+                          <img
+                            src={recording03}
+                            alt="recording-image"
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                        <div className="absolute left-[-9rem] top-[10rem] w-[25rem] h-[25rem] pointer-events-none">
+                          <img
+                            src={discover.mainImg}
+                            className="w-full h-full object-contain"
+                            alt={`discover-image-${discover.id}`}
+                          />
+                        </div>
+                      </div>
+                      <div className="hidden lg:block w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/10"></div>
+                    </div>
+                  </div>
+                </div>
+              )
+            );
+          })}
+        </div>
+
         <div className="flex gap-5 absolute bottom-0">
           <button
             onClick={goBack}
@@ -43,55 +97,6 @@ const Discover = () => {
               className="group-hover:text-light-1/80  text-light-1/50"
             />
           </button>
-        </div>
-
-        <div className=" ">
-          {discovers.map((discover, index) => {
-            return (
-              active === index && (
-                <div
-                  key={discover.id}
-                  className="grid  grid-cols-1 lg:grid-cols-[1.5fr_2fr] xl:grid-cols-[1.25fr_2fr] "
-                >
-                  <div className="px-2 min-h-[20rem]   lg:h-auto">
-                    <h3 className="mb-6  text-[40px] leading-[56px] lg:text-[48px] lg:leading-[60px]">
-                      {discover.title}
-                    </h3>
-                    <p className="text-base   w-[80%] leading-6 mb-8 text-light-3">
-                      {discover.text}
-                    </p>
-                    <Button styles="mb-6">{discover.btnText}</Button>
-                  </div>
-
-                  <div className="relative flex justify-center">
-                    <div className="absolute flex justify-end gap-20  lg:left-[16rem] top-[8rem]">
-                      <div className="relative w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/50">
-                        <div className="absolute bottom-6 left-0 right-0 z-20 mx-auto px-10">
-                          <PopCard title={discover.cardText} />
-                        </div>
-
-                        <div className="absolute w-[4rem] h-[4rem] right-[2rem] top-[2rem]">
-                          <img
-                            src={recording03}
-                            alt="recording-image"
-                            className="w-full h-full object-contain"
-                          />
-                        </div>
-                        <div className="absolute left-[-9rem] top-[10rem] w-[25rem] h-[25rem]">
-                          <img
-                            src={discover.mainImg}
-                            className="w-full h-full object-contain"
-                            alt="img"
-                          />
-                        </div>
-                      </div>
-                      <div className="hidden lg:block w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/10"></div>
-                    </div>
-                  </div>
-                </div>
-              )
-            );
-          })}
         </div>
       </div>
     </Section>
