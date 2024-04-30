@@ -89,7 +89,17 @@ import testimonial02 from "./testimonial/2.png";
 import testimonial03 from "./testimonial/3.png";
 import testimonial04 from "./testimonial/4.png";
 
+import work01 from "./works/1.png";
+import work02 from "./works/2.png";
+
+import musicbg from "./music-background.png";
+import iconslist from "./icons-ladder.png";
+
 export {
+  iconslist,
+  musicbg,
+  work01,
+  work02,
   testimonial01,
   testimonial02,
   testimonial03,

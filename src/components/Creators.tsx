@@ -126,7 +126,10 @@ const Creators = () => {
                 </div>
 
                 <div className="absolute top-[15%] left-[8%]">
-                  <IdeaCardLeftArrow />
+                  <IdeaCardLeftArrow
+                    text="Video generated!"
+                    lastSeen="just Now"
+                  />
                 </div>
 
                 <div className="absolute flex items-center bottom-[1rem] px-10 left-0 right-0">

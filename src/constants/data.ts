@@ -4,6 +4,7 @@ import {
   benefitIcon3,
   benefitImage2,
   check,
+  check2,
   chromecast,
   disc02,
   discord,
@@ -14,6 +15,7 @@ import {
   file02,
   framer,
   homeSmile,
+  loading1,
   notification2,
   notification3,
   notification4,
@@ -35,6 +37,8 @@ import {
   testimonial02,
   testimonial03,
   testimonial04,
+  work01,
+  work02,
   yourlogo,
 } from "../assets";
 
@@ -345,5 +349,42 @@ export const testimonialcards = [
     occupation: "Ux designer",
     testimonial:
       "Brainwave has revolutionized the way I interact with digital assistants. The AI chatbot is able to understand my preferences and provide customized suggestions that are tailored to my needs. The app is user-friendly and intuitive, making it a joy to use.",
+  },
+];
+
+export const works = [
+  {
+    id: "1",
+    title: "Voice Recognition",
+    description:
+      "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    icon: check2,
+    iconText: "Done",
+  },
+  {
+    id: "2",
+    title: "Gamification",
+    description:
+      "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    icon: loading1,
+    iconText: "In Progress",
+    img: work01,
+  },
+  {
+    id: "3",
+    title: "Chatbot customization",
+    description:
+      "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    icon: check2,
+    iconText: "Done",
+    img: work02,
+  },
+  {
+    id: "4",
+    title: "Integration with APIs",
+    description:
+      "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    icon: loading1,
+    iconText: "In Progress",
   },
 ];

@@ -1,14 +1,20 @@
 import { LuTriangleRight } from "react-icons/lu";
 import { brainwaveWhiteSymbol } from "../../assets";
 
-const IdeaCardLeftArrow = () => {
+const IdeaCardLeftArrow = ({
+  text,
+  lastSeen,
+}: {
+  text: string;
+  lastSeen: string;
+}) => {
   return (
-    <div className="bg-dark-2 w-[17rem] h-[4.825rem] rounded-xl relative flex flex-col  px-6  ">
+    <div className="bg-dark-2 w-[18.8rem] h-[4.825rem] rounded-xl relative flex flex-col  px-5  ">
       <p className="text-base leading-6  py-3  tracking-wider  font-code ">
-        Video generated!
+        {text}
       </p>
       <p className="uppercase text-[10px] leading-6  tracking-wider  font-grotesk  text-end">
-        Just now
+        {lastSeen}
       </p>
       <div className="absolute left-[-.9rem] bottom-[-0.25rem]">
         <LuTriangleRight size={36} className="fill-dark-2 text-dark-2 " />
