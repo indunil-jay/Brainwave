@@ -19,7 +19,7 @@ const PriceCard = ({ data }: Props) => {
       className="max-w-[25rem] h-[40rem] border border-light-1/10 rounded-3xl px-4 py-8"
       key={data.id}
     >
-      <h4 className={`h4 mb-6 ${data.titleColor && data.titleColor}`}>
+      <h4 className={`h3 mb-6 ${data.titleColor && data.titleColor}`}>
         {data.title}
       </h4>
       <p className="p3 break-words min-h-[5rem]">{data.description}</p>
@@ -48,7 +48,7 @@ const PriceCard = ({ data }: Props) => {
                   className="w-full h-full object-contain "
                 />
               </div>
-              <p className="text-[15px] text-light-1/80  hyphens-auto">
+              <p className="p2 text-[15px] text-light-1/80  hyphens-auto">
                 {feature}
               </p>
             </div>

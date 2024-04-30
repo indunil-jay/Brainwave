@@ -33,7 +33,7 @@ const Hero = () => {
           </span>
         </h1>
 
-        <p className="p px-[6%] md:px-[12%] lg:px-[18%] xl:px-[25%] 2xl:px-[30%] text-center mt-6 text-light-2">
+        <p className="p1 px-[6%] md:px-[12%] lg:px-[18%] xl:px-[25%] 2xl:px-[30%] text-center mt-6 text-light-2">
           Unleash the power of AI within Brainwave. Upgrade your productivity
           with Brainwave, the open AI chat app.
         </p>

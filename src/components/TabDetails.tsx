@@ -15,7 +15,7 @@ const TabDetails = ({ item, goBack, goNext }: Props) => {
     <div className="relative min-h-[26rem] md:min-h-[20rem] px-10 lg:h-0 lg:px-0">
       <Brackets>How It work : 01. </Brackets>
       <h2 className="h2 mb-5">{item.title}</h2>
-      <p className="p2 text-light-2 mb-7">{item.text}</p>
+      <p className="p2 text-light-3 mb-7">{item.text}</p>
       <Button>{item.btnText}</Button>
 
       <div className="flex gap-5 absolute bottom-0 lg:hidden">

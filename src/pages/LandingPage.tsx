@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Pricing from "../components/Pricing";
 import TabSection from "../components/TabSection";
+import Testimonial from "../components/Testimonial";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
       <TabSection />
       <Creators />
       <Pricing />
+      <Testimonial />
     </>
   );
 };

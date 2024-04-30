@@ -27,11 +27,11 @@ const Collaboration = () => {
                 );
               })}
             </ul>
-            <Button>Try it Now</Button>
+            <Button ariaLabel="Try-it-btn">Try it Now</Button>
           </div>
 
           <div className="relative flex flex-col items-center  space-y-20 lg:justify-self-end">
-            <p className="hidden lg:block  p2 lg:w-[22rem] mt-8 mx-auto text-light-4">
+            <p className="hidden lg:block p2 lg:w-[22rem] mt-8 mx-auto text-light-4">
               {collabText}
             </p>
 

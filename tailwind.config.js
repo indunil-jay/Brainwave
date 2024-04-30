@@ -74,27 +74,33 @@ export default {
             {},
         },
         ".h2": {
-          "@apply xl:text-[3rem] xl:leading-[3.75rem] lg:text-[2.5rem] lg:leading-[3.5rem] md:text-[2rem] leading-[2.5rem] text-[1.75rem] font-normal":
+          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
             {},
+        },
+        ".h3": {
+          "@apply text-[2rem] leading-normal md:text-[2.5rem]": {},
+        },
+        ".h4": {
+          "@apply text-[2rem] leading-normal": {},
         },
 
         ".h5": {
           "@apply text-2xl leading-normal": {},
         },
 
-        ".h4": {
-          "@apply  text-[2rem] leading-[3rem]": {},
+        ".p1": {
+          "@apply text-sm leading-[1.5rem] md:text-base md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-[2rem]":
+            {},
         },
 
         ".p3": {
           "@apply text-base leading-6 font-light  text-light-3": {},
         },
         ".p2": {
-          "@apply font-light text-sm leading-6 md:text-base": {},
+          "@apply text-base font-light text-sm leading-6 md:text-base": {},
         },
-        ".p": {
-          "@apply text-sm leading-[1.5rem] md:text-base md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-[2rem] font-normal":
-            {},
+        ".pcode": {
+          "@apply font-code leading-7": {},
         },
       });
       addUtilities({});

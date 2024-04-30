@@ -84,7 +84,16 @@ import tab2 from "./tabs/2.png";
 import tab3 from "./tabs/3.png";
 import tab4 from "./tabs/4.png";
 
+import testimonial01 from "./testimonial/1.png";
+import testimonial02 from "./testimonial/2.png";
+import testimonial03 from "./testimonial/3.png";
+import testimonial04 from "./testimonial/4.png";
+
 export {
+  testimonial01,
+  testimonial02,
+  testimonial03,
+  testimonial04,
   tab1,
   tab2,
   tab3,

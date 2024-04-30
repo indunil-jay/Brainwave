@@ -32,11 +32,11 @@ const Discover = () => {
                   key={discover.id}
                   className="grid  grid-cols-1 lg:grid-cols-[1.5fr_2fr] xl:grid-cols-[1.25fr_2fr] "
                 >
-                  <div className="px-2 min-h-[20rem]    lg:h-auto">
+                  <div className="px-2 min-h-[20rem]  lg:h-auto">
                     <h2 className="mb-6 h2 text-start pr-12 lg:pr-4">
                       {discover.title}
                     </h2>
-                    <p className="text-base w-[80%] leading-6 mb-8 text-light-3">
+                    <p className="p2 w-[80%] text-light-3  mb-8 ">
                       {discover.text}
                     </p>
                     <Button

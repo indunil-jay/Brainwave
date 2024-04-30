@@ -34,7 +34,7 @@ const Creators = () => {
               <h3 className="text-[2rem]  leading-[1.5rem] mb-4">
                 Smartest AI
               </h3>
-              <p className="p3 font-light mb-[3.125rem] ">
+              <p className="p3 font-light mb-[3.125rem] text-light-4 ">
                 {" "}
                 Brainwave unlocks the potential of AI-powered applications
               </p>
@@ -70,7 +70,7 @@ const Creators = () => {
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 px-12 py-6">
-                <h2 className="h2">Photo editing</h2>
+                <h2 className="h4">Photo editing</h2>
                 <p className="p3">
                   Automatically enhance your photos using our AI app's photo
                   editing feature. Try it now!
@@ -84,7 +84,7 @@ const Creators = () => {
 
             <div className="border-light-1/10 rounded-3xl  w-full overflow-hidden bg-dark-2 p-6 lg:p-12">
               <div className="lg:mt-10 mb-5">
-                <h2 className="h2 mt-5">Video generation</h2>
+                <h2 className="h4 mt-5">Video generation</h2>
                 <p className="p3 mt-3 mb-12 lg:pr-16">
                   The world’s most powerful AI photo and video art generation
                   engine.What will you create?

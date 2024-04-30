@@ -27,12 +27,8 @@ const Features = () => {
               >
                 <div className="p-[2.4rem] flex flex-col justify-around  rounded-3xl">
                   <div>
-                    <h3 className="font-medium text-[1.5rem] leading-7 mb-5 capitalize">
-                      {card.title}
-                    </h3>
-                    <p className="mb-6 text-light-3 font-base leading-6 font-light">
-                      {card.text}
-                    </p>
+                    <h3 className="h5 mb-5 capitalize">{card.title}</h3>
+                    <p className="mb-6 p2">{card.text}</p>
                   </div>
 
                   <div className="flex justify-between items-center ">

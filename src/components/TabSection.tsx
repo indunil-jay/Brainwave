@@ -53,7 +53,7 @@ const TabSection = () => {
               <p className="font-grotesk tracking-tagline text-xs uppercase  text-light-1/50">
                 0{item.id}.
               </p>
-              <h5 className="h5 capitalize mt-2 mb-3">{item.title}</h5>
+              <h5 className="capitalize mt-2 mb-3">{item.title}</h5>
               <p
                 className={`p2 text-light-2 mb-5 line-clamp-3 hyphens-auto opacity-0 ${
                   item.id === activeTab ? "opacity-80" : ""

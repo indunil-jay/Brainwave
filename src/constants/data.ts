@@ -31,6 +31,10 @@ import {
   tab2,
   tab3,
   tab4,
+  testimonial01,
+  testimonial02,
+  testimonial03,
+  testimonial04,
   yourlogo,
 } from "../assets";
 
@@ -301,5 +305,45 @@ export const pricing = [
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
+  },
+];
+
+export const testimonialcards = [
+  {
+    id: 1,
+    image: testimonial02,
+    logo: yourlogo,
+    name: "Jane Doe",
+    occupation: "Ux designer",
+    testimonial:
+      "Brainwave has revolutionized the way I interact with digital assistants. The AI chatbot is able to understand my preferences and provide customized suggestions that are tailored to my needs. The app is user-friendly and intuitive, making it a joy to use.",
+  },
+
+  {
+    id: 2,
+    image: testimonial01,
+    logo: yourlogo,
+    name: "Jane Smith",
+    occupation: "Ux designer",
+    testimonial:
+      "I was blown away by the accuracy and speed of the AI chatbot on Brainwave. It was able to understand my queries and provide relevant recommendations in seconds.",
+  },
+  {
+    id: 3,
+    image: testimonial03,
+    logo: yourlogo,
+    name: "Alexa Curz",
+    occupation: "Ux designer",
+    testimonial:
+      "I was blown away by the accuracy and speed of the AI chatbot on Brainwave. It was able to understand my queries and provide relevant recommendations in seconds.",
+  },
+  {
+    id: 4,
+    image: testimonial04,
+    logo: yourlogo,
+    name: "Miller Oxze",
+    occupation: "Ux designer",
+    testimonial:
+      "Brainwave has revolutionized the way I interact with digital assistants. The AI chatbot is able to understand my preferences and provide customized suggestions that are tailored to my needs. The app is user-friendly and intuitive, making it a joy to use.",
   },
 ];
