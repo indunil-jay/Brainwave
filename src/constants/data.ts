@@ -426,3 +426,23 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const featureOptions1 = [
+  {
+    id: 1,
+    icon: check,
+    option: "Seamless Integration",
+    description:
+      "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter",
+  },
+  {
+    id: 2,
+    icon: check,
+    option: "Smart Automation",
+  },
+  {
+    id: 3,
+    icon: check,
+    option: "Top-notch Security",
+  },
+];

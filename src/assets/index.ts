@@ -94,8 +94,10 @@ import work02 from "./works/2.png";
 
 import musicbg from "./music-background.png";
 import iconslist from "./icons-ladder.png";
+import featuregridbg from "./featuregridbg.png";
 
 export {
+  featuregridbg,
   iconslist,
   musicbg,
   work01,
