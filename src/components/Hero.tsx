@@ -8,6 +8,7 @@ import BackgroundCircles from "./design/Circles";
 import { useRef } from "react";
 import CompanyLogos from "./CompanyLogos";
 import GeneratingText from "./design/GeneratingText";
+import { Rings } from "./MobileNav";
 
 const Hero = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
@@ -88,7 +89,7 @@ const Hero = () => {
             alt="hero"
           />{" "}
         </div>
-
+        <Rings />
         <BackgroundCircles parallaxRef={parallaxRef} />
       </div>
       <CompanyLogos styles="hidden relative z-10 mt-20 lg:block" />
