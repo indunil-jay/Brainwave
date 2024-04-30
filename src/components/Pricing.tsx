@@ -34,7 +34,7 @@ const Pricing = () => {
 
         {/*  */}
 
-        <div className="relative flex flex-col items-center lg:flex-row gap-3 justify-center mt-14">
+        <div className="relative flex flex-col items-center lg:flex-row  lg:gap-3 justify-center mt-14">
           {pricing.map((data) => (
             <PriceCard key={data.id} data={data} />
           ))}
