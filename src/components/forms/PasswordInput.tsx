@@ -1,15 +1,17 @@
 const PasswordInput = ({
   label,
   withForgotField,
+  id,
 }: {
   label: string;
   withForgotField: boolean;
+  id: string;
 }) => {
   return (
     <div>
       <div className="flex items-center justify-between">
         <label
-          htmlFor="password"
+          htmlFor="id"
           className="block text-sm font-medium leading-6 text-light-2"
         >
           {label}
@@ -28,8 +30,8 @@ const PasswordInput = ({
 
       <div className="mt-2">
         <input
-          id="password"
-          name="password"
+          id={id}
+          name={id}
           type="password"
           autoComplete="current-password"
           required

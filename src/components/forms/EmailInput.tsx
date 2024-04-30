@@ -1,4 +1,4 @@
-const EmailInput = ({ label }: { label: string }) => {
+const EmailInput = ({ label, id }: { label: string; id: string }) => {
   return (
     <div>
       <label
@@ -9,8 +9,8 @@ const EmailInput = ({ label }: { label: string }) => {
       </label>
       <div className="mt-2">
         <input
-          id="email"
-          name="email"
+          id={id}
+          name={id}
           type="email"
           autoComplete="email"
           required

@@ -5,25 +5,30 @@ import FormButton from "../components/forms/FormButton";
 import FormLayout from "../components/forms/FormLayout";
 import PasswordInput from "../components/forms/PasswordInput";
 
-const Signin = () => {
+const Signup = () => {
   return (
     <>
       <Header />
       <HeroLayout>
-        <FormLayout formTitle="Sign in to your account" type="LOGIN">
+        <FormLayout formTitle="Create new account" type="REGISTER">
           <EmailInput label="Email address" id="email" />
 
           <PasswordInput
             label="Password"
-            withForgotField={true}
             id="password"
+            withForgotField={true}
+          />
+          <PasswordInput
+            label="Confirm Password"
+            id="confirmpassword"
+            withForgotField={false}
           />
 
-          <FormButton label="Sign in" />
+          <FormButton label="Sign up" />
         </FormLayout>
       </HeroLayout>
     </>
   );
 };
 
-export default Signin;
+export default Signup;

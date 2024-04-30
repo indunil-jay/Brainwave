@@ -1,14 +1,12 @@
 import { brainwaveSymbol } from "../../assets";
-import EmailInput from "./EmailInput";
-import FormButton from "./FormButton";
-import PasswordInput from "./PasswordInput";
 
 type Props = {
   formTitle: string;
   type?: "LOGIN" | "REGISTER";
+  children: React.ReactNode;
 };
 
-const FormLayout = ({ formTitle, type }: Props) => {
+const FormLayout = ({ formTitle, type, children }: Props) => {
   return (
     <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
@@ -27,11 +25,7 @@ const FormLayout = ({ formTitle, type }: Props) => {
 
       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm ">
         <form className="space-y-6" action="#" method="POST">
-          <EmailInput label="Email address" />
-
-          <PasswordInput label="Password" withForgotField={true} />
-
-          <FormButton label="Sign in" />
+          {children}
         </form>
         {type === "LOGIN" && (
           <p className="mt-10 text-center text-xs md:text-sm text-light-3">

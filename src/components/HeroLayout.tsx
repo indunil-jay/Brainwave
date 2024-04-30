@@ -2,10 +2,9 @@ import { useRef } from "react";
 import { background, grid } from "../assets";
 import Section from "./Section";
 import BackgroundCircles from "./design/Circles";
-import FormLayout from "./forms/FormLayout";
 import { ScrollParallax } from "react-just-parallax";
 
-const HeroLayout = () => {
+const HeroLayout = ({ children }: { children: React.ReactNode }) => {
   const parallaxRef = useRef<HTMLDivElement>(null);
   return (
     <Section id="signin-page-hero">
@@ -23,12 +22,9 @@ const HeroLayout = () => {
             </div>
 
             <div className="flex flex-col justify-center items-center h-full w-full">
-              <div className="bg-conic-gradient  grid place-items-center rounded-3xl">
-                <div className="bg-dark-1 w-[calc(100%-2px)] h-[calc(100%-2px)] rounded-3xl  p-4 lg:p-8">
-                  <FormLayout
-                    formTitle="Sign in to your account"
-                    type="LOGIN"
-                  />
+              <div className="bg-conic-gradient max-w-[26rem] w-full md:min-w-[32rem] grid place-items-center rounded-3xl">
+                <div className="bg-dark-1 w-[calc(100%-2px)] h-[calc(100%-2px)] rounded-3xl  p-3 lg:p-8">
+                  {children}
                 </div>
               </div>
             </div>
