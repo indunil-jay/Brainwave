@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ScrollParallax } from "react-just-parallax";
 import { discovers } from "../constants/data";
 import Button from "./Button";
 import Section from "./Section";
@@ -51,7 +52,9 @@ const Discover = () => {
                     <div className="absolute flex justify-end gap-20  lg:left-[16rem] top-[8rem]">
                       <div className="relative w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/50">
                         <div className="absolute bottom-6 left-0 right-0 z-20 mx-auto px-16 lg:px-12">
-                          <PopCard title={discover.cardText} />
+                          <ScrollParallax>
+                            <PopCard title={discover.cardText} />
+                          </ScrollParallax>
                         </div>
 
                         <div className="absolute w-[4rem] h-[4rem] right-[2rem] top-[2rem] pointer-events-none">
@@ -61,13 +64,19 @@ const Discover = () => {
                             className="w-full h-full object-contain"
                           />
                         </div>
-                        <div className="absolute left-[-9rem] top-[10rem] w-[25rem] h-[25rem] pointer-events-none">
-                          <img
-                            src={discover.mainImg}
-                            className="w-full h-full object-contain"
-                            alt={`discover-image-${discover.id}`}
-                          />
-                        </div>
+
+                        <ScrollParallax
+                          enableOnTouchDevice
+                          isAbsolutelyPositioned
+                        >
+                          <div className="absolute left-[-9rem] top-[10rem] w-[25rem] h-[25rem] pointer-events-none">
+                            <img
+                              src={discover.mainImg}
+                              className="w-full h-full object-contain"
+                              alt={`discover-image-${discover.id}`}
+                            />
+                          </div>
+                        </ScrollParallax>
                       </div>
                       <div className="hidden lg:block w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/10"></div>
                     </div>
