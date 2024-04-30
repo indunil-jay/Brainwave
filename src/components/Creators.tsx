@@ -1,3 +1,4 @@
+import { ScrollParallax } from "react-just-parallax";
 import { gradient, play, service1, service2, service3 } from "../assets";
 import { generativeContents, videoIcons } from "../constants/data";
 import Section from "./Section";
@@ -77,8 +78,14 @@ const Creators = () => {
                 </p>
               </div>
 
-              <div className="absolute top-[10%] w-full lg:left-[28%] ">
-                <IdeaCardRightArrow />
+              <div className="absolute top-[10%] w-full left-[20%] lg:left-[28%] ">
+                <ScrollParallax
+                  isAbsolutelyPositioned
+                  isHorizontal
+                  enableOnTouchDevice
+                >
+                  <IdeaCardRightArrow />
+                </ScrollParallax>
               </div>
             </div>
 
@@ -126,10 +133,16 @@ const Creators = () => {
                 </div>
 
                 <div className="absolute top-[15%] left-[8%]">
-                  <IdeaCardLeftArrow
-                    text="Video generated!"
-                    lastSeen="just Now"
-                  />
+                  <ScrollParallax
+                    isAbsolutelyPositioned
+                    isHorizontal
+                    enableOnTouchDevice
+                  >
+                    <IdeaCardLeftArrow
+                      text="Video generated!"
+                      lastSeen="just Now"
+                    />
+                  </ScrollParallax>
                 </div>
 
                 <div className="absolute flex items-center bottom-[1rem] px-10 left-0 right-0">
