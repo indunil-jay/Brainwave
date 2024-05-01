@@ -18,7 +18,7 @@ const Section = ({
   return (
     <section
       id={id}
-      className={`relative px-6 py-10  xl:px-8 2xl:px-10 overflow-hidden ${styles} `}
+      className={`relative px-6 py-10  xl:px-8 2xl:px-10  ${styles} `}
     >
       <div className="absolute w-[1px] top-0 left-5 bg-dark-3 h-full"></div>
       <div className="absolute w-[1px] top-0 right-5 bg-dark-3 h-full"></div>

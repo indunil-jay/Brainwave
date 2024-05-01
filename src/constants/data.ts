@@ -504,3 +504,86 @@ export const testimonailcards = [
     occupation: "Customer Service Representative",
   },
 ];
+
+export const roadmapItems = [
+  {
+    icon: check,
+    id: 1,
+    date: "APR 2023",
+    title: "Define the problem",
+    description:
+      "Identify the problem that your chat AI app will solve. Determine the target audience and their needs.",
+  },
+  {
+    icon: check,
+    id: 2,
+    date: "JUN 2023",
+    title: "Gather data",
+    description:
+      "Gather data that will help you understand the target audience and their needs. This can include user surveys, feedback, and other sources of data.",
+  },
+  {
+    icon: check,
+    id: 3,
+    date: "JUL 2023",
+    title: "Design the chatbot",
+    description:
+      "Design the chatbot that will be the backbone of your app. Determine the features and functionalities that it needs to have.",
+  },
+  {
+    icon: check,
+    id: 4,
+    date: "AUG 2023",
+    title: "Train the chatbot",
+    description:
+      "Train the chatbot using the data that you have gathered. This will help it understand the target audience and provide accurate recommendations.",
+  },
+  {
+    icon: check,
+    id: 5,
+    date: "SEP 2023",
+    title: "Build the app",
+    description:
+      "Test the app to ensure that it meets the requirements and provides accurate recommendations.",
+  },
+  {
+    icon: check,
+    id: 6,
+    date: "NOV 2023",
+    title: "Test the app",
+    description:
+      "Test the app to ensure that it meets the requirements and provides accurate recommendations.",
+  },
+  {
+    icon: sliders04,
+    id: 7,
+    date: "DEC 2023",
+    title: "Launch the app",
+    description:
+      "Launch the app and promote it through various channels, such as social media, email marketing, and paid advertising.",
+  },
+  {
+    icon: sliders04,
+    id: 8,
+    date: "FEB 2024",
+    title: "Collect feedback",
+    description:
+      "Collect feedback from users to improve the app and make it more user-friendly.",
+  },
+  {
+    icon: sliders04,
+    id: 9,
+    date: "MAR 2024",
+    title: "Update the app",
+    description:
+      "Update the app regularly to ensure that it remains relevant and provides accurate recommendations.",
+  },
+  {
+    icon: sliders04,
+    id: 10,
+    date: "MAY 2024",
+    title: "Add more features",
+    description:
+      "After launching the app and collecting feedback, add more features to the chatbot to make it more useful and engaging for users. These features can include integration with other apps, voice recognition, and more customization options.",
+  },
+];

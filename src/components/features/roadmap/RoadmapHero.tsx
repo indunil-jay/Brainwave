@@ -5,7 +5,7 @@ import GeneratingText from "../../design/GeneratingText";
 
 const RoadmapHero = () => {
   return (
-    <Section id="roadmp-hero">
+    <Section id="roadmp-hero" withBottomDividers={false} withPlus={false}>
       <div className="relative z-20 flex flex-col justify-center items-center mt-[8rem] ">
         <h1 className="h1 text-center">Roadmap</h1>
 
