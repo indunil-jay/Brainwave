@@ -57,7 +57,9 @@ const Header = () => {
                   className={`${
                     item.onlyMobile ? "hidden" : "inline-block"
                   }  lg:px-5 xl:px-8 py-4 font-code uppercase text-xs font-semibold transition-colors hover:text-primary-1 leading-5 ${
-                    path.hash === item.url ? "text-light-1" : "text-light-1/50"
+                    path.pathname === item.url
+                      ? "text-light-1"
+                      : "text-light-1/50"
                   }`}
                 >
                   {item.name}
@@ -72,13 +74,13 @@ const Header = () => {
           >
             <Button
               styles="text-light-1/50 hidden md:visible md:block  border-none"
-              href="/#signup"
+              href="/signup"
               ariaLabel="signup-button"
             >
               New Account
             </Button>
             <Button
-              href="/#signin"
+              href="/signin"
               styles="hover:text-primary-1 hover:border-primary-1/50 hidden md:block md:visible"
               ariaLabel="signin-button"
             >
