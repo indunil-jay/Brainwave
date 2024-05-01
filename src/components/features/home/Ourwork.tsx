@@ -1,8 +1,8 @@
-import { works } from "../constants/data";
-import Button from "./Button";
-import Section from "./Section";
-import WorksCard from "./WorksCard";
-import Brackets from "./design/Brackets";
+import { works } from "../../../constants/data";
+import Button from "../../Button";
+import Section from "../../Section";
+import WorksCard from "../../WorksCard";
+import Brackets from "../../design/Brackets";
 
 const Ourwork = () => {
   return (

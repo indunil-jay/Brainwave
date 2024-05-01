@@ -96,7 +96,20 @@ import musicbg from "./music-background.png";
 import iconslist from "./icons-ladder.png";
 import featuregridbg from "./featuregridbg.png";
 
+import user1 from "./users/1.jpg";
+import user2 from "./users/2.jpg";
+import user3 from "./users/3.jpg";
+import user4 from "./users/4.jpg";
+import user5 from "./users/5.jpg";
+import user6 from "./users/6.jpg";
+
 export {
+  user1,
+  user2,
+  user3,
+  user4,
+  user5,
+  user6,
   featuregridbg,
   iconslist,
   musicbg,

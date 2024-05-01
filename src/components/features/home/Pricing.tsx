@@ -1,9 +1,9 @@
-import { discover1, lines, stars } from "../assets";
-import { pricing } from "../constants/data";
-import Button from "./Button";
-import PriceCard from "./PriceCard";
-import Section from "./Section";
-import Brackets from "./design/Brackets";
+import { discover1, lines, stars } from "../../../assets";
+import { pricing } from "../../../constants/data";
+import Button from "../../Button";
+import PriceCard from "../../PriceCard";
+import Section from "../../Section";
+import Brackets from "../../design/Brackets";
 
 const Pricing = () => {
   return (

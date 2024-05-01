@@ -1,5 +1,5 @@
-import Section from "./Section";
-import FeatureCardBox from "./FeatureCardBox";
+import Section from "../../Section";
+import FeatureCardBox from "../feature/FeatureCardBox";
 
 const Features = () => {
   return (

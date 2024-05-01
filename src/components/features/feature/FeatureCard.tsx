@@ -1,5 +1,5 @@
 import { FaAngleRight } from "react-icons/fa";
-import Button from "./Button";
+import Button from "../../Button";
 
 type FeatureCardProps = {
   card: {

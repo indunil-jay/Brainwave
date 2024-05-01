@@ -1,5 +1,5 @@
-import { gradient } from "../assets";
-import { benefits } from "../constants/data";
+import { gradient } from "../../../assets";
+import { benefits } from "../../../constants/data";
 import FeatureCard from "./FeatureCard";
 
 const FeatureCardBox = () => {

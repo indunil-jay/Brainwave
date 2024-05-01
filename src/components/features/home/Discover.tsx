@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { ScrollParallax } from "react-just-parallax";
-import { discovers } from "../constants/data";
-import Button from "./Button";
-import Section from "./Section";
+import { discovers } from "../../../constants/data";
+import Button from "../../Button";
+import Section from "../../Section";
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
-import { recording03 } from "../assets";
-import PopCard from "./PopCard";
+import { recording03 } from "../../../assets";
+import PopCard from "../../PopCard";
 
 const Discover = () => {
   const [active, setActive] = useState<number>(1);

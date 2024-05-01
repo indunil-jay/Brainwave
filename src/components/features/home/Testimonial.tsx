@@ -1,8 +1,8 @@
 import { FaRegCircleDot } from "react-icons/fa6";
-import { testimonialcards } from "../constants/data";
-import Button from "./Button";
-import Section from "./Section";
-import Brackets from "./design/Brackets";
+import { testimonialcards } from "../../../constants/data";
+import Button from "../../Button";
+import Section from "../../Section";
+import Brackets from "../../design/Brackets";
 import { useState } from "react";
 import { FaCircle } from "react-icons/fa";
 import { ScrollParallax } from "react-just-parallax";

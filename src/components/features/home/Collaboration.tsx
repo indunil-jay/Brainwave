@@ -1,7 +1,7 @@
-import { brainwaveSymbol, check, curve1, curve2 } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants/data";
-import Button from "./Button";
-import Section from "./Section";
+import { brainwaveSymbol, check, curve1, curve2 } from "../../../assets";
+import { collabApps, collabContent, collabText } from "../../../constants/data";
+import Button from "../../Button";
+import Section from "../../Section";
 
 const Collaboration = () => {
   return (

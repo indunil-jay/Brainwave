@@ -42,6 +42,12 @@ import {
   testimonial03,
   testimonial04,
   twitter,
+  user1,
+  user2,
+  user3,
+  user4,
+  user5,
+  user6,
   work01,
   work02,
   yourlogo,
@@ -444,5 +450,57 @@ export const featureOptions1 = [
     id: 3,
     icon: check,
     option: "Top-notch Security",
+  },
+];
+
+export const testimonailcards = [
+  {
+    id: 1,
+    description:
+      " I have been using Brainwave for several months and have been impressed with its capabilities. The AI chatbot is able to understand complex queries and provide accurate recommendations, making my life easier and more productive. I would recommend this app to anyone looking for a reliable and efficient AI assistant.",
+    userImg: user1,
+    username: "Jane Smith",
+    occupation: "Ux Designer",
+  },
+
+  {
+    id: 2,
+    description:
+      "As a developer, I rely on AI tools to streamline my workflow. Brainwave has been an indispensable tool for me. Its intuitive interface and powerful features have significantly boosted my productivity. I highly recommend it to fellow developers.",
+    userImg: user2,
+    username: "John Doe",
+    occupation: "Software Developer",
+  },
+  {
+    id: 3,
+    description:
+      "Brainwave has revolutionized the way I manage my schedule. As a busy entrepreneur, staying organized is crucial, and this AI app has made it effortless. Its smart scheduling capabilities have saved me countless hours. I can't imagine my life without it now.",
+    userImg: user3,
+    username: "Emily Johnson",
+    occupation: "Entrepreneur",
+  },
+  {
+    id: 4,
+    description:
+      "I'm constantly amazed by the accuracy of Brainwave's predictive analytics. As a data scientist, I rely on data-driven insights to make informed decisions, and Brainwave never disappoints. Its advanced algorithms have helped me uncover valuable insights that have significantly impacted my projects.",
+    userImg: user4,
+    username: "Michael Brown",
+    occupation: "Data Scientist",
+  },
+  {
+    id: 5,
+    description:
+      "Being a student, I often find myself overwhelmed with assignments and deadlines. Brainwave has become my go-to study buddy. Its AI-powered study planner has helped me stay organized and focused. Thanks to Brainwave, managing my academic workload has become much more manageable.",
+    userImg: user5,
+    username: "Sarah Miller",
+    occupation: "Student",
+  },
+  {
+    id: 6,
+    description:
+      "As a customer service representative, I interact with numerous customers daily. Brainwave's AI chatbot has been a game-changer for me. It handles customer queries efficiently, allowing me to focus on providing excellent service. Thanks to Brainwave, our customer satisfaction rates have soared.",
+    userImg: user6,
+    username: "Alex Clark",
+    occupation: "Customer Service Representative",
   },
 ];

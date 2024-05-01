@@ -1,9 +1,9 @@
-import { featureOptions1 } from "../constants/data";
+import { featureOptions1 } from "../../../constants/data";
 
 const FeatureOptionDataCard = () => {
   return (
-    <div className="lg:h-[37.5rem] row-start-2 lg:row-auto">
-      <div className="pl-[1rem] md:pl-[4.5rem] h-full flex flex-col justify-center">
+    <div className="lg:h-[37.5rem] row-start-2  max-w-[34.375rem]  w-full content-center   lg:row-auto ">
+      <div className="pl-[1rem] md:pl-[4.5rem] h-full flex flex-col lg:justify-center ">
         <h2 className="h2 mb-4 md:mb-8">Customization Options</h2>
 
         <ul className="">

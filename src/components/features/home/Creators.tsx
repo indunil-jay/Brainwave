@@ -1,10 +1,10 @@
 import { ScrollParallax } from "react-just-parallax";
-import { gradient, play, service1, service2, service3 } from "../assets";
-import { generativeContents, videoIcons } from "../constants/data";
-import Section from "./Section";
-import GeneratingText from "./design/GeneratingText";
-import IdeaCardLeftArrow from "./design/IdeaCardLeftArrow";
-import IdeaCardRightArrow from "./design/IdeaCardRightArrow";
+import { gradient, play, service1, service2, service3 } from "../../../assets";
+import { generativeContents, videoIcons } from "../../../constants/data";
+import Section from "../../Section";
+import GeneratingText from "../../design/GeneratingText";
+import IdeaCardLeftArrow from "../../design/IdeaCardLeftArrow";
+import IdeaCardRightArrow from "../../design/IdeaCardRightArrow";
 
 const Creators = () => {
   return (

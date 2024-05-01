@@ -1,5 +1,5 @@
 import FeatureCardBox from "./FeatureCardBox";
-import Section from "./Section";
+import Section from "../../Section";
 
 const FeatureGrid = () => {
   return (

@@ -1,5 +1,5 @@
-import { work02 } from "../assets";
-import Section from "./Section";
+import { work02 } from "../../../assets";
+import Section from "../../Section";
 
 const FeatureHero = () => {
   return (
