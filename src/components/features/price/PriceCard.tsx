@@ -1,6 +1,5 @@
-import { ScrollParallax } from "react-just-parallax";
-import { check } from "../assets";
-import Button from "./Button";
+import { check } from "../../../assets";
+import Button from "../../Button";
 
 type Props = {
   data: {
@@ -16,11 +15,11 @@ type Props = {
 
 const PriceCard = ({ data }: Props) => {
   return (
-    <ScrollParallax>
-      <div
-        className="max-w-[25rem] h-[40rem] border border-light-1/10 rounded-3xl px-4 py-8 mb-[10rem] lg:mb-0"
-        key={data.id}
-      >
+    <div
+      className="max-w-[25rem] h-[40rem]  border border-light-1/10 rounded-3xl px-4 py-8 mb-[10rem] md:mb-[4rem] lg:mb-0"
+      key={data.id}
+    >
+      <div>
         <h4 className={`h3 mb-6 ${data.titleColor && data.titleColor}`}>
           {data.title}
         </h4>
@@ -58,7 +57,7 @@ const PriceCard = ({ data }: Props) => {
           })}
         </div>
       </div>
-    </ScrollParallax>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 import { discover1, lines, stars } from "../../../assets";
 import { pricing } from "../../../constants/data";
 import Button from "../../Button";
-import PriceCard from "../../PriceCard";
+import PriceCard from "../price/PriceCard";
 import Section from "../../Section";
 import Brackets from "../../design/Brackets";
 
