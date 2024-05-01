@@ -103,7 +103,16 @@ import user4 from "./users/4.jpg";
 import user5 from "./users/5.jpg";
 import user6 from "./users/6.jpg";
 
+import guide01 from "./guide/1.png";
+import guide02 from "./guide/2.png";
+import guide03 from "./guide/3.png";
+import guide04 from "./guide/4.png";
+
 export {
+  guide01,
+  guide02,
+  guide03,
+  guide04,
   user1,
   user2,
   user3,

@@ -16,6 +16,10 @@ import {
   figma,
   file02,
   framer,
+  guide01,
+  guide02,
+  guide03,
+  guide04,
   homeSmile,
   instagram,
   loading1,
@@ -761,5 +765,39 @@ export const accordingdata = [
     title: "How can I get started with Brainwave?",
     description:
       "Getting started with Brainwave is quick and easy. Simply download the app from your preferred app store, create an account, and start interacting with the AI-powered chat interface. Whether you're seeking personalized recommendations or assistance with various tasks, Brainwave is ready to help you achieve your goals and simplify your daily routine. Join the Brainwave community today and embark on a journey towards a healthier and more productive lifestyle!",
+  },
+];
+
+export const guides = [
+  {
+    id: 1,
+    title: "Sign up",
+    image: guide01,
+    text1:
+      "To create an account with Brainwave - AI chat app, all you need to do is provide your name, email address, and password. Once you have signed up, you will be able to start exploring the app's various features. Brainwave's AI chat system is designed to provide you with an intuitive, easy-to-use interface that makes it simple to chat with friends and family, or even with new acquaintances.",
+    text2:
+      "n addition, the app is constantly being updated with new features and improvements, so you can expect it to continue to evolve and improve over time. Whether you are looking for a simple chat app, or a more advanced platform that can help you stay connected with people from all over the world, Brainwave is the perfect choice.",
+  },
+
+  {
+    id: 2,
+    title: "Connect with AI Chatbot",
+    image: guide02,
+    text1:
+      "Connect with the AI chatbot to start the conversation. The chatbot uses natural language processing to understand your queries and provide relevant responses.",
+  },
+  {
+    id: 3,
+    title: "Get Personalized Advices",
+    image: guide03,
+    text1:
+      "Based on the conversation with the AI chatbot, you will receive personalized recommendations related to your queries. The chatbot is trained to understand your preferences and provide customized suggestions.",
+  },
+  {
+    id: 4,
+    title: "Explore and Engage",
+    image: guide04,
+    text1:
+      "Explore the recommendations provided by the AI chatbot and engage with the app. You can ask questions, provide feedback, and share your experience with the chatbot.",
   },
 ];
