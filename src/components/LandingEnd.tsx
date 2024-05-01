@@ -1,4 +1,4 @@
-import { curve, heroBackground } from "../assets";
+import { curve, gradient } from "../assets";
 import Button from "./Button";
 import { BackgroundCircles } from "./MobileNav";
 import Section from "./Section";
@@ -35,10 +35,10 @@ const LandingEnd = () => {
         <BackgroundCircles />
         <Rings />
 
-        <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+        <div className="absolute overflow-hidden -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
           <img
-            src={heroBackground}
-            className="w-full opacity-35"
+            src={gradient}
+            className="w-full opacity-5"
             width={1440}
             height={1800}
             alt="hero"

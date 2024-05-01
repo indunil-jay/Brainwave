@@ -5,7 +5,7 @@ import Section from "./Section";
 
 const Footer = () => {
   return (
-    <Section id="footer">
+    <Section id="footer" styles="pt-10 pb-0 ">
       <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto lg:grid grid-cols-[10rem_1fr] lg:place-items-end">
         <div className="flex flex-col justify-center items-center  w-full ">
           <div className="w-[6rem] aspect-square mb-2">
