@@ -92,6 +92,7 @@ const Hero = () => {
         <Rings />
         <BackgroundCircles parallaxRef={parallaxRef} />
       </div>
+
       <CompanyLogos styles="hidden relative z-10 mt-20 lg:block" />
     </Section>
   );
