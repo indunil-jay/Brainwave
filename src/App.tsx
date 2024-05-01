@@ -4,6 +4,7 @@ import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import FeaturePage from "./pages/FeaturePage";
 import RoadMap from "./pages/RoadMap";
+import PricePage from "./pages/PricePage";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/feature" element={<FeaturePage />} />
         <Route path="/roadmap" element={<RoadMap />} />
+        <Route path="/pricing" element={<PricePage />} />
       </Routes>
     </BrowserRouter>
   );
