@@ -1,4 +1,5 @@
 import { guides } from "../../../constants/data";
+import Button from "../../Button";
 import Section from "../../Section";
 import GuidesCard from "./GuidesCard";
 import Search from "./Search";
@@ -11,7 +12,7 @@ const Guides = () => {
 
         <div className="mt-[5rem]">
           <div className="grid grid-cols-1 lg:grid-cols-[24.5rem_1fr] ">
-            <div className="bg-blue-300"></div>
+            <div className="bg-blue-300 "></div>
             <div>
               <h2 className="h2 py-6 ml-8 mb-16 border-b-[1px] capitalize border-b-light-1/10">
                 Getting started
@@ -20,6 +21,9 @@ const Guides = () => {
                 {guides.map((guide) => (
                   <GuidesCard key={guide.id} guide={guide} />
                 ))}
+              </div>
+              <div className="flex items-center justify-center">
+                <Button>Read more</Button>
               </div>
             </div>
           </div>
