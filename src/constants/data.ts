@@ -730,3 +730,36 @@ export const pricePlansDetails = [
     color: "bg-primary-2",
   },
 ];
+
+export const accordingdata = [
+  {
+    id: 1,
+    title: "What is Brainwave - AI chat app?",
+    description:
+      "Brainwave is an AI-powered chat application that utilizes cutting-edge natural language processing technology to provide personalized recommendations and assistance to users. Whether it's offering tailored advice on meal planning, exercise routines, or other lifestyle choices, Brainwave aims to streamline and enhance users' daily activities, ultimately contributing to a healthier and more productive lifestyle.",
+  },
+  {
+    id: 2,
+    title: "How does Brainwave - AI chat app work?",
+    description:
+      "Brainwave operates by leveraging sophisticated AI algorithms to interpret and respond to user queries in real-time. Through its intuitive chat interface, users can engage with the app to receive accurate and relevant recommendations tailored to their preferences. By harnessing the power of natural language processing, Brainwave aims to simplify decision-making processes and empower users to make informed choices effortlessly.",
+  },
+  {
+    id: 3,
+    title: "What are the core features of Brainwave?",
+    description:
+      "Brainwave boasts a wide array of core features designed to enhance user experience and productivity. From its intuitive chat interface and personalized recommendations to its seamless integration with various lifestyle aspects such as meal planning and exercise tracking, Brainwave offers a comprehensive solution for users seeking to optimize their daily routines and achieve their goals effectively.",
+  },
+  {
+    id: 4,
+    title: "How much does Brainwave cost?",
+    description:
+      "Brainwave offers flexible pricing options tailored to meet the diverse needs of its users. Whether you're looking for basic functionality or advanced features, Brainwave provides subscription plans at competitive prices. With transparent pricing and scalable options, users can choose a plan that aligns with their budget and requirements, ensuring they get the most out of the app's capabilities.",
+  },
+  {
+    id: 5,
+    title: "How can I get started with Brainwave?",
+    description:
+      "Getting started with Brainwave is quick and easy. Simply download the app from your preferred app store, create an account, and start interacting with the AI-powered chat interface. Whether you're seeking personalized recommendations or assistance with various tasks, Brainwave is ready to help you achieve your goals and simplify your daily routine. Join the Brainwave community today and embark on a journey towards a healthier and more productive lifestyle!",
+  },
+];

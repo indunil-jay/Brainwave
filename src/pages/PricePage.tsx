@@ -1,4 +1,5 @@
 import CommunitySection from "../components/CommunitySection";
+import FaqSection from "../components/FaqSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import PricingHero from "../components/features/price/PricingHero";
@@ -13,6 +14,7 @@ const PricePage = () => {
       <PricingPlan />
       <PricingTable />
       <CommunitySection />
+      <FaqSection />
       {/* <LandingEnd /> */}
       <Footer />
     </>
