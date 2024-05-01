@@ -32,7 +32,7 @@ const FaqSection = () => {
                 className="flex items-center justify-between px-6 py-3 bg-dark-2 cursor-pointer"
                 onClick={() => handleOpen(index)}
               >
-                <h5 className="h5">{data.title}</h5>
+                <h5 className="md:h5 text-[1.2rem]">{data.title}</h5>
                 <button className="text-[1.5rem]">
                   {currentOpen === index ? "-" : "+"}
                 </button>
@@ -40,7 +40,7 @@ const FaqSection = () => {
               <div
                 className={`p3  bg-dark-2 overflow-hidden transition-opacity duration-300 ${
                   currentOpen === index
-                    ? "opacity-100 max-h-[500px]"
+                    ? "opacity-100 max-h-[500px] p-6"
                     : "opacity-0 max-h-0"
                 }`}
               >

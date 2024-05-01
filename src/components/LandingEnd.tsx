@@ -1,13 +1,11 @@
 import { curve, gradient } from "../assets";
 import Button from "./Button";
-import { BackgroundCircles } from "./MobileNav";
 import Section from "./Section";
-import Rings from "./design/Rings";
 
 const LandingEnd = () => {
   return (
-    <Section id="landing-end">
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] h-[35vw] relative mx-auto grid place-items-center mb-[20rem]">
+    <Section id="landing-end" withPlus={false}>
+      <div className="2xl:w-[72%] xl:w-[84%] w-[94%]  relative mx-auto grid place-items-center ">
         <div className="relative z-20 flex flex-col justify-center items-center mt-20 ">
           <h1 className="h1 text-center">
             <span className="block"> Be part of the future of</span>
@@ -32,15 +30,10 @@ const LandingEnd = () => {
           </Button>
         </div>
 
-        <BackgroundCircles />
-        <Rings />
-
-        <div className="absolute overflow-hidden -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+        <div className="absolute -z-20 w-[50rem]  overflow-hidden ">
           <img
             src={gradient}
-            className="w-full opacity-5"
-            width={1440}
-            height={1800}
+            className="w-full h-full object-cover opacity-20"
             alt="hero"
           />{" "}
         </div>
