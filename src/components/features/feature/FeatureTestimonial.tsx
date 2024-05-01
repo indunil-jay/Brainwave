@@ -18,8 +18,8 @@ const FeatureTestimonial = () => {
   return (
     <Section id="feature-testimonial">
       <div className="relative 2xl:w-[72%] xl:w-[84%] w-[94%] mx-auto ">
-        <div className="relative lg:min-w-[34.375rem]  mx-auto lg:h-[34rem] bg-conic-gradient rounded-3xl lg:rounded-tr-[7rem] flex items-center justify-center ">
-          <div className=" w-[calc(100%-4px)] my-[2px] lg:my-0  lg:h-[calc(100%-4px)]  bg-dark-1 rounded-3xl lg:rounded-tr-[7rem] p-4 lg:p-8 2xl:p-20 ">
+        <div className="relative  max-w-[68rem]  mx-auto lg:h-[34rem] bg-conic-gradient rounded-3xl lg:rounded-tr-[7rem] flex items-center justify-center ">
+          <div className="w-[calc(100%-4px)] my-[2px] lg:my-0  lg:h-[calc(100%-4px)]  bg-dark-1 rounded-3xl lg:rounded-tr-[7rem] p-6 lg:p-12 xl:p-16 2xl:p-20 ">
             <div className="grid grid-cols-1  md:grid-cols-[1fr_20rem] h-full relative">
               {testimonailcards.map(
                 (card, index) =>
@@ -29,7 +29,7 @@ const FeatureTestimonial = () => {
               )}
             </div>
           </div>
-          <div className="absolute bottom-5 flex gap-4 mt-[7.5rem] items-center justify-center">
+          <div className="absolute bottom-2 md:bottom-5 flex gap-4  lg:flex-col lg:right-12 lg:bottom-1/2 translate-y-1/2 ">
             {testimonailcards.map((_, index) => (
               <button
                 key={index}
@@ -37,9 +37,9 @@ const FeatureTestimonial = () => {
                 className="bg-transparent"
               >
                 {index === currentActiveCard ? (
-                  <FaRegCircleDot />
+                  <FaRegCircleDot size={12} />
                 ) : (
-                  <FaCircle />
+                  <FaCircle size={12} />
                 )}
               </button>
             ))}

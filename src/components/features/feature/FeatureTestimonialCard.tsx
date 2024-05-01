@@ -12,7 +12,7 @@ const FeatureTestimonialCard = ({ card }: FeatureTestimonialCardProps) => {
   return (
     <>
       <div className="">
-        <p className="font-code  mb-6 md:mb-12 lg:mb-0 text-[1.75rem] lg:leading-[2.25rem]">
+        <p className="font-code  mb-6 md:mb-12 lg:mb-0 text-[1.25rem] lg:text-[1.75rem] lg:leading-[2.25rem]">
           {card.description}
         </p>
       </div>
