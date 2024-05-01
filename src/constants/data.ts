@@ -587,3 +587,146 @@ export const roadmapItems = [
       "After launching the app and collecting feedback, add more features to the chatbot to make it more useful and engaging for users. These features can include integration with other apps, voice recognition, and more customization options.",
   },
 ];
+export const pricePlansDetails = [
+  {
+    id: 1,
+    title: "Custom AI chatbot",
+    description:
+      "Provide dedicated servers for enterprises to ensure maximum security, performance, and uptime.",
+    basic: check2,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 2,
+    title: "Live support",
+    description:
+      "Offer live support options tailored to your plan, including email support for Premium and personalized 1-1 support for Enterprise.",
+    basic: null,
+    isText: true,
+    premium: "Email",
+    enterprise: "1-1 support",
+    color: "bg-primary-1",
+  },
+  {
+    id: 3,
+    title: "Integrations",
+    description:
+      "Integrate with a variety of third-party applications and services to enhance the functionality of your AI chatbot.",
+    basic: check2,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 4,
+    title: "Advanced analytics",
+    description:
+      "Access advanced analytics and insights to gain deeper understanding and improve the performance of your AI chatbot.",
+    basic: check2,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 5,
+    title: "Dedicated account manager",
+    description:
+      "Get personalized support and guidance from a dedicated account manager to ensure your AI chatbot meets your specific needs and goals.",
+    basic: check2,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 6,
+    title: "Enhanced security",
+    description:
+      "Benefit from enhanced security measures to protect your data and ensure the confidentiality and integrity of your AI chatbot.",
+    basic: null,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 7,
+    title: "Custom AI chatbot",
+    description:
+      "Customize your AI chatbot to fit your specific requirements and preferences, ensuring it delivers the best possible user experience.",
+    basic: null,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 8,
+    title: "Customized training",
+    description:
+      "Receive customized training sessions to empower your team with the knowledge and skills needed to effectively utilize and manage your AI chatbot.",
+    basic: null,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 9,
+    title: "Customized analytics",
+    description:
+      "Access tailored analytics reports and insights that align with your business objectives and help drive informed decision-making.",
+    basic: null,
+    premium: check2,
+    enterprise: check2,
+    color: "bg-primary-1",
+  },
+  {
+    id: 10,
+    title: "Multi-agent support",
+    description:
+      "Enable multiple agents to collaborate and engage with users simultaneously, enhancing the scalability and efficiency of your AI chatbot.",
+    basic: null,
+    premium: null,
+    enterprise: check2,
+    color: "bg-primary-2",
+  },
+  {
+    id: 11,
+    title: "Advanced integrations",
+    description:
+      "Integrate with advanced third-party systems and platforms to extend the capabilities and functionality of your AI chatbot.",
+    basic: null,
+    premium: null,
+    enterprise: check2,
+    color: "bg-primary-2",
+  },
+  {
+    id: 12,
+    title: "Dedicated server",
+    description:
+      "Opt for a dedicated server setup to ensure optimal performance, reliability, and scalability for your AI chatbot.",
+    basic: null,
+    premium: null,
+    enterprise: check2,
+    color: "bg-primary-2",
+  },
+  {
+    id: 13,
+    title: "White-labeling",
+    description:
+      "Customize the branding and appearance of your AI chatbot to seamlessly integrate it into your brand identity, providing a cohesive user experience.",
+    basic: null,
+    premium: null,
+    enterprise: check2,
+    color: "bg-primary-2",
+  },
+  {
+    id: 14,
+    title: "Customizable branding",
+    description:
+      "Tailor the branding and appearance of your AI chatbot to align with your brand identity and create a seamless user experience.",
+    basic: null,
+    premium: null,
+    enterprise: check2,
+    color: "bg-primary-2",
+  },
+];
