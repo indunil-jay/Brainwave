@@ -97,7 +97,7 @@ const WorksCard = ({ card }: Props) => {
           <Brackets>May 2024</Brackets>
         </div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full  p-14 pointer-events-none">
-          <img src={card.img} alt={`works-img-${card.title}`} />
+          {card.img && <img src={card.img} alt={`works-img-${card.title}`} />}
         </div>
 
         <div className="absolute top-0 right-0  p-6 md:p-14 pointer-events-none">
