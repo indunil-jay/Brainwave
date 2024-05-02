@@ -71,7 +71,7 @@ const Creators = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 px-12 py-6">
+              <div className="absolute bottom-0 left-0 right-0 px-2  py-6">
                 <h2 className="h4">Photo editing</h2>
                 <p className="p3 text-light-2">
                   Automatically enhance your photos using our AI app's photo

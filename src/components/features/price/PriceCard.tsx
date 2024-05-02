@@ -26,7 +26,7 @@ const PriceCard = ({ data, isYearly }: Props) => {
 
   return (
     <div
-      className="max-w-[25rem] h-[40rem]  border border-light-1/10 rounded-3xl px-4 py-8 mb-[10rem] md:mb-[4rem] lg:mb-0"
+      className="max-w-[25rem] h-[40rem]  border border-light-1/10 rounded-3xl px-4 py-8 mb-[4rem] lg:mb-0"
       key={data.id}
     >
       <div>
