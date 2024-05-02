@@ -54,8 +54,8 @@ const Discover = () => {
 
                   <div className="relative flex justify-center">
                     <div className="absolute flex justify-end gap-20  lg:left-[16rem] top-[8rem]">
-                      <div className="relative w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/50">
-                        <div className="absolute bottom-6 left-0 right-0 z-20 mx-auto px-16 lg:px-12">
+                      <div className="relative w-[24rem] md:w-[30rem] h-[30rem] rounded-[3rem] border border-light-1/50">
+                        <div className="absolute bottom-6 left-0 right-0 z-20 mx-auto px-8 lg:px-12">
                           <ScrollParallax>
                             <PopCard title={discover.cardText} />
                           </ScrollParallax>
@@ -73,7 +73,7 @@ const Discover = () => {
                           enableOnTouchDevice
                           isAbsolutelyPositioned
                         >
-                          <div className="absolute left-[-9rem] top-[10rem] w-[25rem] h-[25rem] pointer-events-none">
+                          <div className="absolute  md:left-[-9rem] top-[10rem] w-[25rem] h-[25rem] pointer-events-none">
                             <img
                               src={discover.mainImg}
                               className="w-full h-full object-contain"
