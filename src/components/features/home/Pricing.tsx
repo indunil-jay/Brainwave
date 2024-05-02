@@ -58,7 +58,7 @@ const Pricing = () => {
 
         {/*  */}
         <div className="flex items-center justify-center lg:mt-20  ">
-          <Link to="/signup">
+          <Link to="/pricing">
             <Button
               styles="border-none underline underline-offset-8  hover:no-underline "
               ariaLabel="see-all-pricing-details-btn"
