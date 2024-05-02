@@ -24,7 +24,13 @@ const Footer = () => {
                   href={item.url}
                   className="w-[2rem] h-[2rem] aspect-square rounded-xl bg-light-1/10 grid place-items-center "
                 >
-                  <img src={item.iconUrl} width={16} height={16} className="" />
+                  <img
+                    src={item.iconUrl}
+                    width={16}
+                    height={16}
+                    className=""
+                    alt={`social-media-icon-${item.id}`}
+                  />
                 </a>
               </div>
             ))}

@@ -95,6 +95,7 @@ const Discover = () => {
           <button
             onClick={goBack}
             className="group w-[3.8rem] h-[3.8rem] rounded-full bg-dark-7/40 flex items-center justify-center"
+            aria-label="back-button"
           >
             <HiArrowLeft
               size={24}
@@ -102,6 +103,7 @@ const Discover = () => {
             />
           </button>
           <button
+            aria-label="next-button"
             onClick={goNext}
             className="group w-[3.8rem] h-[3.8rem] rounded-full bg-dark-7/40 flex items-center justify-center"
           >

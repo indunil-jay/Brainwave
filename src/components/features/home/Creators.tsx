@@ -129,6 +129,7 @@ const Creators = () => {
                   <img
                     src={service3}
                     className="h-full w-full object-cover backdrop-saturate-50"
+                    alt="service-image-3"
                   />
                 </div>
 

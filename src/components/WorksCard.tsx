@@ -55,7 +55,13 @@ const WorksCard = ({ card }: Props) => {
             <div className="absolute w-full top-[8rem] md:top-[12rem] left-1/2 -translate-x-1/2 -translate-y-1/2  px-6 md:px-16">
               <div className=" w-full border bg-dark-1 rounded-2xl flex items-center justify-between px-4 py-2.5 pointer-events-none">
                 <div className="flex gap-4 items-center">
-                  <img src={loading} width={20} height={20} className="" />
+                  <img
+                    src={loading}
+                    width={20}
+                    height={20}
+                    className=""
+                    alt={`works-card-${card.id}`}
+                  />
                   <p className="p1 text-light-1/80">Connection...|</p>
                 </div>
                 <ul className="flex -m-0.5">
@@ -65,7 +71,11 @@ const WorksCard = ({ card }: Props) => {
                         key={index}
                         className="flex  -m-0.5 w-6 h-6 border-2 border-n-12 rounded-full overflow-hidden"
                       >
-                        <img src={img} className="w-full" alt={img} />
+                        <img
+                          src={img}
+                          className="w-full"
+                          alt={`bf-works-${index}`}
+                        />
                       </li>
                     );
                   })}
@@ -87,13 +97,13 @@ const WorksCard = ({ card }: Props) => {
           <Brackets>May 2024</Brackets>
         </div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full  p-14 pointer-events-none">
-          <img src={card.img} />
+          <img src={card.img} alt={`works-img-${card.title}`} />
         </div>
 
         <div className="absolute top-0 right-0  p-6 md:p-14 pointer-events-none">
           <div className="w-auto h-[1.75rem] bg-light-1 rounded-md flex justify-between items-center px-5 gap-4">
             <div className="w[1.5rem] aspect-square">
-              <img src={card.icon} />
+              <img src={card.icon} alt={`works-btn-${card.title}`} />
             </div>
             <p className="font-grotesk text-sm text-dark-5 uppercase">
               {card.iconText}

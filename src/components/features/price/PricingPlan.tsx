@@ -26,6 +26,7 @@ const PricingPlan = () => {
         <div className="max-w-[20rem] h-[3.6rem]  bg-gradient-to-b from-purple-400 to-dark-1 rounded-2xl mx-auto grid place-items-center ">
           <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] bg-black rounded-2xl flex">
             <button
+              aria-label="toggle-btn-month"
               onClick={changePriceToMonth}
               className={`rounded-2xl m-1 w-1/2 grid place-content-center ${
                 isMonthly && "bg-dark-3"
@@ -36,6 +37,7 @@ const PricingPlan = () => {
               </p>
             </button>
             <button
+              aria-label="toggle-btn-year"
               onClick={changePriceToYear}
               className={`rounded-2xl m-1 w-1/2 flex items-center justify-center ${
                 isYearly && "bg-dark-3"

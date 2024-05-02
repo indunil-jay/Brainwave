@@ -27,7 +27,12 @@ const LandingEnd = () => {
           </p>
 
           <Link to="/signin">
-            <Button styles="mt-6" whiteBtn={true} withArrow={true}>
+            <Button
+              styles="mt-6"
+              whiteBtn={true}
+              withArrow={true}
+              ariaLabel="get-started-btn"
+            >
               Get Started
             </Button>
           </Link>

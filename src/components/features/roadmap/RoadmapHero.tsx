@@ -14,7 +14,12 @@ const RoadmapHero = () => {
           app, including its key features and development steps.
         </p>
 
-        <Button styles="mt-6" whiteBtn={true} withArrow={true}>
+        <Button
+          styles="mt-6"
+          whiteBtn={true}
+          withArrow={true}
+          ariaLabel="suggets-feature-btn"
+        >
           Suggets Features
         </Button>
       </div>

@@ -81,6 +81,7 @@ const Testimonial = () => {
               key={index}
               onClick={() => moveCard(index)}
               className="bg-transparent"
+              aria-label={`testimonial-slider--btn-${index}`}
             >
               {index === cardIndex ? <FaRegCircleDot /> : <FaCircle />}
             </button>

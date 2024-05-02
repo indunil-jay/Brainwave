@@ -17,7 +17,12 @@ const Collaboration = () => {
                 return (
                   <li className="mb-3 py-3" key={item.id}>
                     <div className="flex items-center">
-                      <img src={check} width={24} height={24} alt={check} />
+                      <img
+                        src={check}
+                        width={24}
+                        height={24}
+                        alt={`check-image-${item.id}`}
+                      />
                       <h5 className="h5 ml-5">{item.title}</h5>
                     </div>
                     {item.text && (
@@ -27,7 +32,9 @@ const Collaboration = () => {
                 );
               })}
             </ul>
-            <Button ariaLabel="Try-it-btn">Try it Now</Button>
+            <Button ariaLabel="Try-it-btn" whiteBtn={true}>
+              Try it Now
+            </Button>
           </div>
 
           <div className="relative flex flex-col items-center  space-y-20 lg:justify-self-end">
@@ -40,6 +47,7 @@ const Collaboration = () => {
               <img
                 src={brainwaveSymbol}
                 className="w-full h-full object-none"
+                alt="white-brainwave-symbol"
               />
             </div>
             <div className="absolute border border-light-1/15 w-[10.5rem] rounded-full aspect-square top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 " />

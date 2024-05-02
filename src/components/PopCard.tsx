@@ -32,7 +32,7 @@ const PopCard = ({ title, styles }: PropS) => {
                   key={index}
                   className="flex  -m-0.5 w-6 h-6 border-2 border-n-12 rounded-full overflow-hidden"
                 >
-                  <img src={img} className="w-full" alt={img} />
+                  <img src={img} className="w-full" alt={`pop-user-${index}`} />
                 </li>
               );
             })}

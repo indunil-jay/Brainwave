@@ -25,6 +25,7 @@ const TabDetails = ({ item, goBack, goNext }: Props) => {
 
       <div className="flex gap-5 absolute bottom-0 lg:hidden">
         <button
+          aria-label="goback-btn-tab"
           onClick={goBack}
           className="group w-[3.8rem] h-[3.8rem] rounded-full bg-dark-7/40 flex items-center justify-center"
         >
@@ -34,6 +35,7 @@ const TabDetails = ({ item, goBack, goNext }: Props) => {
           />
         </button>
         <button
+          aria-label="gonext-btn-tab"
           onClick={goNext}
           className="group w-[3.8rem] h-[3.8rem] rounded-full bg-dark-7/40 flex items-center justify-center"
         >

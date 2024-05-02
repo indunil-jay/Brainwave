@@ -39,7 +39,12 @@ const Hero = () => {
           with Brainwave, the open AI chat app.
         </p>
 
-        <Button styles="mt-6" whiteBtn={true} withArrow={true}>
+        <Button
+          styles="mt-6"
+          whiteBtn={true}
+          withArrow={true}
+          ariaLabel="get-started-home-btn"
+        >
           Get Started
         </Button>
       </div>

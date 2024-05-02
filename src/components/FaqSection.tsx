@@ -33,7 +33,10 @@ const FaqSection = () => {
                 onClick={() => handleOpen(index)}
               >
                 <h5 className="md:h5 text-[1.2rem]">{data.title}</h5>
-                <button className="text-[1.5rem]">
+                <button
+                  className="text-[1.5rem]"
+                  aria-label="according-open-close-btn"
+                >
                   {currentOpen === index ? "-" : "+"}
                 </button>
               </div>

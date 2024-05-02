@@ -11,7 +11,7 @@ type Props = {
     btnText: string;
     features: string[];
   };
-  isYearly: boolean;
+  isYearly?: boolean;
 };
 
 const PriceCard = ({ data, isYearly }: Props) => {
@@ -44,7 +44,11 @@ const PriceCard = ({ data, isYearly }: Props) => {
         </h1>
 
         <div className="flex items-center justify-center">
-          <Button styles="w-[90%] justify-center" whiteBtn={true}>
+          <Button
+            styles="w-[90%] justify-center"
+            whiteBtn={true}
+            ariaLabel={`btn-go-to-${data.title}`}
+          >
             {data.btnText}
           </Button>
         </div>

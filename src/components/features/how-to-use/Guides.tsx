@@ -24,6 +24,7 @@ const Guides = () => {
                   <button
                     className="flex items-start py-3.5"
                     onClick={() => handleOpen(index)}
+                    aria-label={`side-navigation-link-${index}`}
                   >
                     <div
                       className={`relative w-6 h-6 my-0.5 mr-5 p-0.5 bg-dark-2 rounded-md ${
@@ -60,7 +61,10 @@ const Guides = () => {
                     <ul className="overflow-hidden">
                       {data.links.map((link, index) => (
                         <li key={index}>
-                          <button className="inline-block">
+                          <button
+                            className="inline-block"
+                            aria-label={`link-for-go-to-section-${index}`}
+                          >
                             <ScrollLink
                               to={link.url}
                               smooth={true}
@@ -89,7 +93,7 @@ const Guides = () => {
                 ))}
               </div>
               <div className="flex items-center justify-center">
-                <Button>Read more</Button>
+                <Button ariaLabel="read-more-btn-guide">Read more</Button>
               </div>
             </div>
           </div>

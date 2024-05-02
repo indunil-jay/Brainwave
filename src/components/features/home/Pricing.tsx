@@ -60,6 +60,7 @@ const Pricing = () => {
           <Button
             href="/"
             styles="border-none underline underline-offset-8  hover:no-underline "
+            ariaLabel="see-all-pricing-details-btn"
           >
             See The full Details
           </Button>

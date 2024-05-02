@@ -16,6 +16,7 @@ function ErrorFallback({ resetErrorBoundary }: FallbackProps) {
                   need to go.
                 </p>
                 <button
+                  aria-label="back-to-home-btn"
                   onClick={resetErrorBoundary}
                   className="sm:w-full lg:w-auto my-2 border rounded md py-4 px-8 text-center bg-primary-1/80 text-white hover:bg-primary-1 focus:outline-none focus:ring-2 focus:ring-primary-1/70 focus:ring-opacity-50"
                 >
@@ -25,13 +26,19 @@ function ErrorFallback({ resetErrorBoundary }: FallbackProps) {
             </div>
 
             <div className="absolute bottom-0">
-              <img src="https://i.ibb.co/G9DC8S0/404-2.png" />
+              <img
+                src="https://i.ibb.co/G9DC8S0/404-2.png"
+                alt="fallback-page-bg"
+              />
             </div>
           </div>
         </div>
 
         <div>
-          <img src="https://i.ibb.co/ck1SGFJ/Group.png" />
+          <img
+            src="https://i.ibb.co/ck1SGFJ/Group.png"
+            alt="fallback-page-bg2"
+          />
         </div>
       </div>
     </div>

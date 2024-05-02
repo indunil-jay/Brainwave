@@ -8,6 +8,7 @@ const Search = () => {
         width={30}
         height={30}
         className="z-30 text-dark-3 ml-6 opacity-50 bg-transparent"
+        alt="search-maginfier-icon"
       />
       <input
         type="text"
