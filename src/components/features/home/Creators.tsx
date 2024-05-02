@@ -79,7 +79,7 @@ const Creators = () => {
                 </p>
               </div>
 
-              <div className="absolute top-[10%] w-full lg:left-[20%] lg:left-[28%] ">
+              <div className="absolute top-[10%] w-full  lg:left-[24%] ">
                 <ScrollParallax
                   isAbsolutelyPositioned
                   isHorizontal
@@ -90,7 +90,7 @@ const Creators = () => {
               </div>
             </div>
 
-            <div className="border-light-1/10 rounded-3xl  w-full overflow-hidden bg-dark-2 p-6 lg:p-12">
+            <div className="border-light-1/10 rounded-3xl  w-full overflow-hidden bg-dark-2 p-1 md:p-6 lg:p-12">
               <div className="lg:mt-10 mb-5">
                 <h2 className="h4 mt-5">Video generation</h2>
                 <p className="p3 mt-3 mb-12 lg:pr-16 text-light-2">
