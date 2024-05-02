@@ -18,7 +18,7 @@ const Testimonial = () => {
   };
   return (
     <Section id="testimonial">
-      <div className="container relative  mb-[10rem]">
+      <div className="container relative  lg:mb-[10rem]">
         <div className="flex flex-col items-center ">
           <Brackets> READY TO GET STARTED</Brackets>
           <h2 className="h2 py-2 my-4">What the community is saying</h2>
@@ -75,7 +75,7 @@ const Testimonial = () => {
           </ScrollParallax>
         </div>
 
-        <div className="flex gap-4 mt-[10rem] items-center justify-center">
+        <div className="flex gap-4  mt-[6rem]  lg:mt-[10rem] items-center justify-center">
           {testimonialcards.map((_, index) => (
             <button
               key={index}
