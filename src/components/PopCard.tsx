@@ -37,7 +37,7 @@ const PopCard = ({ title, styles }: PropS) => {
               );
             })}
           </ul>
-          <div className="body-2 text-light-5">1m ago</div>
+          <div className="body-2 text-light-2">1m ago</div>
         </div>
       </div>
     </div>
