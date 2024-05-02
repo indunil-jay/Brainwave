@@ -9,10 +9,10 @@ const HeroLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Section id="signin-page-hero" withBottomDividers={false} withPlus={false}>
       <div className="container fixed left-1/2 -translate-x-1/2 ">
-        <div className="relative w-full h-full" ref={parallaxRef}>
+        <div className="relative mt-[3rem] w-full h-full" ref={parallaxRef}>
           <div className="grid z-50 bg-transparent  lg:grid-cols-2 w-full h-full">
             <div className="flex flex-col justify-center items-center px-4">
-              <h1 className="h2 md:px-[14%] 2xl:px-[16%] text-center lg:text-start">
+              <h1 className="h2 md:px-[14%] 2xl:px-[16%] text-center lg:text-start mb-3">
                 Join the AI revolution with Brainwave
               </h1>
               <p className="p2 mt-10 md:px-[13%] 2xl:px-[16%] text-light-3 hidden lg:block">
