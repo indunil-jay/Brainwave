@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { brainwaveSymbol, check, curve1, curve2 } from "../../../assets";
 import { collabApps, collabContent, collabText } from "../../../constants/data";
 import Button from "../../Button";
@@ -32,9 +33,11 @@ const Collaboration = () => {
                 );
               })}
             </ul>
-            <Button ariaLabel="Try-it-btn" whiteBtn={true}>
-              Try it Now
-            </Button>
+            <Link to="/how-to-use">
+              <Button ariaLabel="Try-it-btn" whiteBtn={true}>
+                Try it Now
+              </Button>
+            </Link>
           </div>
 
           <div className="relative flex flex-col items-center  space-y-20 lg:justify-self-end">

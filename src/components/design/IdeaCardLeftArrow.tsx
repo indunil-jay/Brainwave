@@ -9,7 +9,7 @@ const IdeaCardLeftArrow = ({
   lastSeen: string;
 }) => {
   return (
-    <div className="bg-dark-2 w-[18.8rem] h-[4.825rem] rounded-xl relative flex flex-col  px-5  ">
+    <div className="bg-dark-2 w-[15.8rem] h-[4.825rem] rounded-xl relative flex flex-col  px-5  ">
       <p className="text-base leading-6  py-3  tracking-wider  font-code ">
         {text}
       </p>
