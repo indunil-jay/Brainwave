@@ -22,7 +22,7 @@ const Creators = () => {
             <img src={gradient} alt="gradient-background-image" />
           </div>
 
-          <div className="h-[36.5rem] xl:h-[44.5rem] rounded-3xl z-10 border border-light-1/10 relative overflow-hidden p-8 lg:p-20 flex items-center">
+          <div className="h-[36.5rem] xl:h-[44.5rem] rounded-3xl z-10 border border-light-1/10 relative overflow-hidden p-4 lg:p-20 flex items-center">
             <div className="md:w-3/5 h-full flex items-center -z-10  absolute top-0 left-0  sm:-left-[7rem] md:left-[-1rem] lg:left-[-6.5rem] xl:-left-[8rem]  ">
               <img
                 src={service1}
@@ -79,7 +79,7 @@ const Creators = () => {
                 </p>
               </div>
 
-              <div className="absolute top-[10%] w-full left-[20%] lg:left-[28%] ">
+              <div className="absolute top-[10%] w-full lg:left-[20%] lg:left-[28%] ">
                 <ScrollParallax
                   isAbsolutelyPositioned
                   isHorizontal
@@ -134,7 +134,7 @@ const Creators = () => {
                   />
                 </div>
 
-                <div className="absolute top-[15%] left-[8%]">
+                <div className="absolute top-[15%] md:left-[8%]">
                   <ScrollParallax
                     isAbsolutelyPositioned
                     isHorizontal
