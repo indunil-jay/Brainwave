@@ -16,7 +16,7 @@ const TabSection = () => {
 
   return (
     <Section id="signup">
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%]   mx-auto">
+      <div className="container mb-[5rem]">
         <MobileTabSection />
 
         <div className="hidden lg:block ">

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { works } from "../../../constants/data";
 import Button from "../../Button";
 import Section from "../../Section";
@@ -6,8 +7,8 @@ import Brackets from "../../design/Brackets";
 
 const Ourwork = () => {
   return (
-    <Section id="working-on">
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto bg-transparent ">
+    <Section id="working-on" withBottomDividers={false}>
+      <div className="container relative mb-[5rem] bg-transparent ">
         <div className="flex flex-col items-center my-10 ">
           <Brackets> READY TO GET STARTED</Brackets>
           <h2 className="h2 py-2 my-4">What we’re working on</h2>
@@ -20,9 +21,11 @@ const Ourwork = () => {
         </div>
 
         <div className=" flex justify-center items-center">
-          <Button ariaLabel="roadmap-btn" whiteBtn={true} withArrow={true}>
-            our Road map
-          </Button>
+          <Link to="/roadmap">
+            <Button ariaLabel="roadmap-btn" whiteBtn={true} withArrow={true}>
+              our Road map
+            </Button>
+          </Link>
         </div>
       </div>
     </Section>

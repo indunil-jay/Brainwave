@@ -18,13 +18,13 @@ const Testimonial = () => {
   };
   return (
     <Section id="testimonial">
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto  ">
-        <div className="flex flex-col items-center mt-10 ">
+      <div className="container relative  mb-[10rem]">
+        <div className="flex flex-col items-center ">
           <Brackets> READY TO GET STARTED</Brackets>
           <h2 className="h2 py-2 my-4">What the community is saying</h2>
         </div>
 
-        <div className="w-full h-[32rem]  my-10  grid place-items-center relative">
+        <div className="w-full h-[32rem]  my-[5rem]  grid place-items-center relative">
           <ScrollParallax>
             <div
               className="relative w-full lg:w-[52rem] rounded-3xl h-full  lg:h-[90%] flex gap-[15%] "
@@ -75,7 +75,7 @@ const Testimonial = () => {
           </ScrollParallax>
         </div>
 
-        <div className="flex gap-4 mt-[7.5rem] items-center justify-center">
+        <div className="flex gap-4 mt-[10rem] items-center justify-center">
           {testimonialcards.map((_, index) => (
             <button
               key={index}

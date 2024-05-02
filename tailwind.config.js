@@ -103,7 +103,7 @@ export default {
           "@apply font-code leading-7": {},
         },
         ".container": {
-          "@apply 2xl:w-[72%] xl:w-[84%] w-[94%] mx-auto py-[10rem]": {},
+          "@apply 2xl:w-[72%] xl:w-[84%] w-[94%] mx-auto lg:pt-[10rem]": {},
         },
       });
       addUtilities({});

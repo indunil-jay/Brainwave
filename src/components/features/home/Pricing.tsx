@@ -8,7 +8,7 @@ import Brackets from "../../design/Brackets";
 const Pricing = () => {
   return (
     <Section id="pricing">
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto  ">
+      <div className="container relative mb-[5rem]">
         <div className="relative h-[64vw] md:h-[46vw] lg:h-[38vw]  2xl:h-[25vw] flex items-center justify-center">
           <div className="absolute w-[16rem] h-[16rem]">
             <img

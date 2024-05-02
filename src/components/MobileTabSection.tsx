@@ -19,7 +19,7 @@ const MobileTabSection = () => {
     });
   };
   return (
-    <div className="lg:hidden flex items-center flex-col gap-20">
+    <div className="lg:hidden flex items-center flex-col gap-20 my-[5rem]">
       <TabDetails
         item={tabContent[currentTab]}
         goBack={goBack}

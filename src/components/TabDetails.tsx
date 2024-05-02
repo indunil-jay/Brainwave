@@ -1,6 +1,7 @@
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
 import Button from "./Button";
 import Brackets from "./design/Brackets";
+import { Link } from "react-router-dom";
 
 type Props = {
   item: {
@@ -16,7 +17,11 @@ const TabDetails = ({ item, goBack, goNext }: Props) => {
       <Brackets>How It work : 01. </Brackets>
       <h2 className="h2 mb-5">{item.title}</h2>
       <p className="p2 text-light-3 mb-7">{item.text}</p>
-      <Button>{item.btnText}</Button>
+      <Link to="/signin">
+        <Button whiteBtn={true} withArrow={true} ariaLabel="connect-btn">
+          {item.btnText}
+        </Button>
+      </Link>
 
       <div className="flex gap-5 absolute bottom-0 lg:hidden">
         <button

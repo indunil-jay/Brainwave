@@ -25,7 +25,7 @@ const Discover = () => {
   };
   return (
     <Section id="discover" withPlus={false}>
-      <div className=" relative isolate z-20 lg:min-h-[40rem] 2xl:w-[72%] xl:w-[84%] w-[94%]   mx-auto mb-[50rem] lg:mb-[16rem]">
+      <div className=" relative isolate z-20 lg:min-h-[40rem] container mb-[50rem] lg:mb-[30rem] ">
         <div className=" ">
           {discovers.map((discover, index) => {
             return (
