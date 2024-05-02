@@ -36,8 +36,8 @@ const RoadmapHero = () => {
               />
             </div>
             <GeneratingText />
-            <div className="absolute top-[-8rem] left-[7rem]">
-              <img src={coins} alt="coins image" />
+            <div className="absolute top-[-3rem] lg:top-[-6rem] lg:left-[7rem]">
+              <img src={coins} alt="coins image" width={120} />
             </div>
           </div>
         </div>

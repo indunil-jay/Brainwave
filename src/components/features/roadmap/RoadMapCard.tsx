@@ -38,7 +38,7 @@ const RoadMapCard = ({ item }: RoadMapCardProp) => {
           <div className="mb-5 md:flex md:items-center md:justify-between md:min-h-[3.5rem] md:mb-6">
             <h5 className="h5">{item.title}</h5>
           </div>
-          <p className="p3 text-light-4">{item.description}</p>
+          <p className="p3 text-light-2">{item.description}</p>
         </div>
       </div>
     </li>
