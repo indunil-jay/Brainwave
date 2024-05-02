@@ -19,7 +19,7 @@ const Brackets = ({ children }: Props) => {
   return (
     <div>
       <LeftBracket />
-      <span className="font-grotesk tracking-tagline text-sm uppercase  text-light-1/50">
+      <span className="font-grotesk tracking-tagline text-[10px] sm:text-sm uppercase  text-light-1/50">
         {" "}
         {children}
       </span>
