@@ -15,7 +15,7 @@ const TabDetails = ({ item, goBack, goNext }: Props) => {
   return (
     <div className="relative min-h-[32rem] md:min-h-[20rem] px-4 lg:h-0 lg:px-0">
       <Brackets>How It work : 01. </Brackets>
-      <h2 className="h2 mb-5">{item.title}</h2>
+      <h2 className="h2 my-6">{item.title}</h2>
       <p className="p2 text-light-3 mb-7">{item.text}</p>
       <Link to="/signin">
         <Button whiteBtn={true} withArrow={true} ariaLabel="connect-btn">
