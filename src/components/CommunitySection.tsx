@@ -6,7 +6,7 @@ import Brackets from "./design/Brackets";
 const CommunitySection = () => {
   return (
     <Section id="community-section" withBottomDividers={false} withPlus={false}>
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto  ">
+      <div className="container relative">
         <div className="flex flex-col items-center my-20 ">
           <Brackets> READY TO GET STARTED</Brackets>
           <h2 className="h2 py-2 my-4">What the community is saying</h2>

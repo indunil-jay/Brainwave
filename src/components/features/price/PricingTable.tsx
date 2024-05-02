@@ -7,10 +7,10 @@ import PricingTableColumnsHeads from "./PricingTableColumnsHeads";
 const PricingTable = () => {
   return (
     <Section id="pricing-table" withBottomDividers={false} withPlus={false}>
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%]  relative mx-auto">
+      <div className="container relative">
         <h2 className="h2 text-center">Compare plans & features</h2>
 
-        <div role="table " className="overflow-x-auto">
+        <div role="table " className="overflow-x-auto mt-20">
           <PriceTableRow>
             <PricingTableColumnsHeads />
           </PriceTableRow>

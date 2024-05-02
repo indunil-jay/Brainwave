@@ -7,6 +7,8 @@ const PricingPlan = () => {
   const [isMonthly, setIsMonthly] = useState<boolean>(true);
   const [isYearly, setIsYearly] = useState<boolean>(false);
 
+  console.log(isMonthly, isYearly);
+
   const changePriceToMonth = () => {
     if (isMonthly) return;
     setIsMonthly(true);
@@ -51,7 +53,7 @@ const PricingPlan = () => {
 
         <div className="relative flex flex-col items-center lg:flex-row  lg:gap-3 justify-center mt-14">
           {pricing.map((data) => (
-            <PriceCard key={data.id} data={data} />
+            <PriceCard key={data.id} data={data} isYearly={isYearly} />
           ))}
         </div>
       </div>

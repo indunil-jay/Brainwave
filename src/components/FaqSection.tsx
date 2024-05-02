@@ -11,7 +11,7 @@ const FaqSection = () => {
 
   return (
     <Section id="faq" withBottomDividers={false} withPlus={false}>
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%] relative mx-auto grid grid-cols-1 lg:grid-cols-2">
+      <div className="container relative grid grid-cols-1 lg:grid-cols-2">
         <div className="p-8">
           <h2 className="h2">Frequently asked questions</h2>
           <p className="p3 mt-6">

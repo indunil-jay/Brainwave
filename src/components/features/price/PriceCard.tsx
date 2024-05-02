@@ -11,9 +11,19 @@ type Props = {
     btnText: string;
     features: string[];
   };
+  isYearly: boolean;
 };
 
-const PriceCard = ({ data }: Props) => {
+const PriceCard = ({ data, isYearly }: Props) => {
+  let discountWithPrice: number | null = null;
+
+  if (data.price !== null) {
+    discountWithPrice =
+      Math.round(
+        (12 * parseFloat(data.price) - parseFloat(data.price) * 0.1 * 12) * 100
+      ) / 100;
+  }
+
   return (
     <div
       className="max-w-[25rem] h-[40rem]  border border-light-1/10 rounded-3xl px-4 py-8 mb-[10rem] md:mb-[4rem] lg:mb-0"
@@ -26,7 +36,11 @@ const PriceCard = ({ data }: Props) => {
         <p className="p3 break-words min-h-[5rem]">{data.description}</p>
 
         <h1 className="h1 mb-4 min-h-[5rem]">
-          {data.price ? `$${data.price}` : null}
+          {data.price
+            ? isYearly && data.price
+              ? `$${discountWithPrice}`
+              : `$${data.price}`
+            : null}
         </h1>
 
         <div className="flex items-center justify-center">
