@@ -18,12 +18,12 @@ const App = () => {
         <PageNavigator />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="signin" element={<Signin />} />
-          <Route path="signup" element={<Signup />} />
-          <Route path="feature" element={<FeaturePage />} />
-          <Route path="roadmap" element={<RoadMap />} />
-          <Route path="pricing" element={<PricePage />} />
-          <Route path="how-to-use" element={<HowToUsePage />} />
+          <Route path="/signin" element={<Signin />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/feature" element={<FeaturePage />} />
+          <Route path="/roadmap" element={<RoadMap />} />
+          <Route path="/pricing" element={<PricePage />} />
+          <Route path="/how-to-use" element={<HowToUsePage />} />
           <Route path="*" element={<LandingPage />} />
         </Routes>
       </Suspense>
