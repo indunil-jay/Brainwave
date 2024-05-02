@@ -1,5 +1,6 @@
 import { navigation } from "../constants/data";
 import { background } from "../assets";
+import { Link } from "react-router-dom";
 
 export const Rings = () => {
   return (
@@ -39,13 +40,13 @@ const MobileNav = ({ onClick }: Props) => {
       <div className="flex flex-col z-50   items-center mt-[14rem]  gap-14">
         {navigation.map((item) => (
           <div key={item.id}>
-            <a
+            <Link
               onClick={onClick}
-              href={item.url}
+              to={item.url}
               className={`inline-block font-code uppercase text-lg "text-light-1"  transition-colors hover:text-primary-1 leading-5 `}
             >
               {item.name}
-            </a>
+            </Link>
           </div>
         ))}
       </div>
