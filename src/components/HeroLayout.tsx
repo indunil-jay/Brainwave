@@ -7,8 +7,8 @@ import { ScrollParallax } from "react-just-parallax";
 const HeroLayout = ({ children }: { children: React.ReactNode }) => {
   const parallaxRef = useRef<HTMLDivElement>(null);
   return (
-    <Section id="signin-page-hero">
-      <div className="container overflow-hidden mt-[5rem] lg:mt-0 grid ">
+    <Section id="signin-page-hero" withBottomDividers={false} withPlus={false}>
+      <div className="container fixed left-1/2 -translate-x-1/2 ">
         <div className="relative w-full h-full" ref={parallaxRef}>
           <div className="grid z-50 bg-transparent  lg:grid-cols-2 w-full h-full">
             <div className="flex flex-col justify-center items-center px-4">
@@ -38,12 +38,12 @@ const HeroLayout = ({ children }: { children: React.ReactNode }) => {
               <BackgroundCircles parallaxRef={parallaxRef} />
             </div>
           </ScrollParallax>
-          <div className="absolute w-full h-auto  left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 -z-50 ">
+          <div className="absolute w-full h-screen  left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 -z-50  ">
             <img
               src={background}
               alt="background-image"
-              className=" w-full h-auto opacity-5
-              blur-sm  "
+              className=" w-full h-full opacity-5
+              blur-sm  object-cover"
             />
           </div>
           <div className="absolute top-[-6rem] left-0  -z-50 ">
