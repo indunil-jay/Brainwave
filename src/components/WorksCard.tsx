@@ -113,7 +113,7 @@ const WorksCard = ({ card }: Props) => {
 
         <div className="absolute left-0 bottom-0 p-6  md:p-14 pointer-events-none">
           <h3 className="h3 mb-4 capitalize">{card.title}</h3>
-          <p className="p2 text-light-4 break-words">{card.description}</p>
+          <p className="p2 text-light-2 break-words">{card.description}</p>
         </div>
       </div>
     </div>
