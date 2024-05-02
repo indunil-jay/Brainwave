@@ -2,7 +2,7 @@ import { searchMd } from "../../../assets";
 
 const Search = () => {
   return (
-    <div className=" h-[3.4rem] lg:h-[4.2rem] flex items-center relative rounded-3xl bg-transparent">
+    <div className=" h-[3.4rem] lg:h-[4.2rem] mt-[7rem] lg:mt-0 flex items-center relative rounded-3xl bg-transparent">
       <img
         src={searchMd}
         width={30}

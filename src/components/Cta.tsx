@@ -13,9 +13,10 @@ const Cta = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="content-center ml-10">
+          <div className="content-center  ml-4  lg:ml-10">
             <h2 className="h2  mb-6">Need help?</h2>
             <p className="p3">Cant find your answer, contact us</p>
+
             <div className="mt-8 space-y-8">
               <div className="flex gap-5 items-center">
                 <div className="w-[4.6rem] h-[4.8rem] border border-light-1/10 grid place-content-center rounded-2xl">
