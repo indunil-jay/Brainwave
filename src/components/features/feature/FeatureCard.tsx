@@ -27,7 +27,11 @@ const FeatureCard = ({ card }: FeatureCardProps) => {
 
         <div className="flex justify-between items-center ">
           <div className="w-[3rem] h-[3rem]">
-            <img src={card.iconUrl} className="w-full h-full object-contain" />
+            <img
+              src={card.iconUrl}
+              className="w-full h-full object-contain"
+              alt={`feature-card-imge-${card.title}`}
+            />
           </div>
 
           <Link

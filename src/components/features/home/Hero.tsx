@@ -78,6 +78,7 @@ const Hero = () => {
 
             <div className="rounded-b-[0.9rem] aspect-[33/40] md:aspect-[688/490] lg:aspect-[1024/490] overflow-hidden">
               <img
+                alt="robot-background-image-in-hero"
                 src={robot}
                 className="h-auto w-full  scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
               />

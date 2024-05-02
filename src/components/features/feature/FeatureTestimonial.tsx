@@ -35,6 +35,7 @@ const FeatureTestimonial = () => {
                 key={index}
                 onClick={() => moveCard(index)}
                 className="bg-transparent"
+                aria-label={`slider-dot-btn-${index}`}
               >
                 {index === currentActiveCard ? (
                   <FaRegCircleDot size={12} />

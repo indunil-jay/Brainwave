@@ -49,6 +49,7 @@ const Creators = () => {
                       <img
                         src={item.symbol}
                         className="h-full w-full object-contain"
+                        alt={`check-icon-${item.id}`}
                       />
                     </div>
                     <p className="ml-4 ">{item.text}</p>

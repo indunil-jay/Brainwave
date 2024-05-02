@@ -16,7 +16,7 @@ const FeatureOptionDataCard = () => {
                 <div className="w-[2rem] h-[2rem] aspect-square rounded-full flex items-center justify-center ">
                   <img
                     src={item.icon}
-                    alt={`check-image`}
+                    alt={`check-image-${item.id}`}
                     width={24}
                     height={24}
                     className="inline-block"

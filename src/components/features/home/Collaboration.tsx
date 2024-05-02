@@ -46,7 +46,7 @@ const Collaboration = () => {
             <div className="absolute bg-dark-1 w-[5rem] h-[5rem] rounded-full top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 flex items-center justify-center">
               <img
                 src={brainwaveSymbol}
-                className="w-full h-full object-none"
+                className="w-full h-full object-contain"
                 alt="white-brainwave-symbol"
               />
             </div>
@@ -85,7 +85,7 @@ const Collaboration = () => {
         </div>
 
         <div className="hidden absolute top-[64%] xl:left-[14%]  2xl:left-[20%]   mr-10 pointer-events-none xl:block">
-          <img src={curve1} width={522} height={182} alt="Curve 1" />
+          <img src={curve1} width={522} height={182} alt="Curve 1 " />
         </div>
       </div>
     </Section>

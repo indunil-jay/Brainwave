@@ -7,6 +7,7 @@ const FeatureOptionBgCard = () => {
         <img
           src={featuregridbg}
           className="w-full h-full object-cover rounded-3xl"
+          alt="feature-bg-image"
         />
       </div>
     </div>
