@@ -60,14 +60,16 @@ const Guides = () => {
                     <ul className="overflow-hidden">
                       {data.links.map((link, index) => (
                         <li key={index}>
-                          <ScrollLink
-                            to={link.url}
-                            smooth={true}
-                            duration={500}
-                            className="font-light text-[0.875rem] leading-6 md:text-base block py-3 pl-11 text-light-3 transition-colors hover:text-primary-1 cursor-pointer"
-                          >
-                            {link.name}
-                          </ScrollLink>
+                          <button className="inline-block">
+                            <ScrollLink
+                              to={link.url}
+                              smooth={true}
+                              duration={500}
+                              className="font-light text-[0.875rem] leading-6 md:text-base block py-3 pl-11 text-light-3 transition-colors hover:text-primary-1 cursor-pointer"
+                            >
+                              {link.name}
+                            </ScrollLink>
+                          </button>
                         </li>
                       ))}
                     </ul>

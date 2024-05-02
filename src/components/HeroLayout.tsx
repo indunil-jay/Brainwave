@@ -8,7 +8,7 @@ const HeroLayout = ({ children }: { children: React.ReactNode }) => {
   const parallaxRef = useRef<HTMLDivElement>(null);
   return (
     <Section id="signin-page-hero">
-      <div className="container overflow-hidden mt-[5rem] lg:mt-0">
+      <div className="container overflow-hidden mt-[5rem] lg:mt-0 grid ">
         <div className="relative w-full h-full" ref={parallaxRef}>
           <div className="grid z-50 bg-transparent  lg:grid-cols-2 w-full h-full">
             <div className="flex flex-col justify-center items-center px-4">
