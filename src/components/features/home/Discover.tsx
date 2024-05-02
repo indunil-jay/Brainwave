@@ -6,6 +6,7 @@ import Section from "../../Section";
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
 import { recording03 } from "../../../assets";
 import PopCard from "../../PopCard";
+import { Link } from "react-router-dom";
 
 const Discover = () => {
   const [active, setActive] = useState<number>(1);
@@ -40,12 +41,15 @@ const Discover = () => {
                     <p className="p2 w-[80%] text-light-3  mb-8 ">
                       {discover.text}
                     </p>
-                    <Button
-                      styles="mb-6"
-                      ariaLabel={`discover-slides-btn-${discover.id}`}
-                    >
-                      {discover.btnText}
-                    </Button>
+                    <Link to="/how-to-use">
+                      <Button
+                        styles="mb-6"
+                        ariaLabel={`discover-slides-btn-${discover.id}`}
+                        whiteBtn={true}
+                      >
+                        {discover.btnText}
+                      </Button>
+                    </Link>
                   </div>
 
                   <div className="relative flex justify-center">

@@ -102,6 +102,9 @@ export default {
         ".pcode": {
           "@apply font-code leading-7": {},
         },
+        ".container": {
+          "@apply 2xl:w-[72%] xl:w-[84%] w-[94%] mx-auto py-[10rem]": {},
+        },
       });
       addUtilities({});
     }),

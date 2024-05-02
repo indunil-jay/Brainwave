@@ -16,7 +16,7 @@ type FeatureCardProps = {
 const FeatureCard = ({ card }: FeatureCardProps) => {
   return (
     <div
-      className="group  relative h-[24rem] flex justify-center  p-2 border rounded-3xl  shadow-2xl shadow-blue-500/20"
+      className="group relative h-[24rem] flex justify-center  p-2 border rounded-3xl  shadow-2xl shadow-blue-500/20"
       key={card.id}
     >
       <div className="p-[2.4rem] flex flex-col justify-around  rounded-3xl">
