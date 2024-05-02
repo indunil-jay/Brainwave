@@ -9,14 +9,15 @@ import { useRef } from "react";
 import CompanyLogos from "../../CompanyLogos";
 import GeneratingText from "../../design/GeneratingText";
 import { Rings } from "../../MobileNav";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const parallaxRef = useRef<HTMLDivElement>(null);
 
   return (
-    <Section id="hero">
+    <Section id="hero" styles="">
       <div
-        className="relative z-20 flex flex-col justify-center items-center mt-[4rem] lg:mt-[8rem] "
+        className="relative z-20 flex flex-col justify-center items-center mt-[4rem] lg:mt-[8rem]  overflow-hidden "
         ref={parallaxRef}
       >
         <h1 className="h1 text-center">
@@ -39,18 +40,20 @@ const Hero = () => {
           with Brainwave, the open AI chat app.
         </p>
 
-        <Button
-          styles="mt-6"
-          whiteBtn={true}
-          withArrow={true}
-          ariaLabel="get-started-home-btn"
-        >
-          Get Started
-        </Button>
+        <Link to="/signup">
+          <Button
+            styles="mt-6"
+            whiteBtn={true}
+            withArrow={true}
+            ariaLabel="get-started-home-btn"
+          >
+            Get Started
+          </Button>
+        </Link>
       </div>
 
-      <div className="relative  max-w-[32rem] lg:max-w-[64rem] mx-auto mt-20 xl:mb-24 ">
-        <div className="relative rounded-2xl z-10 p-0.5 bg-conic-gradient ">
+      <div className="relative  max-w-[32rem] lg:max-w-[64rem] mx-auto mt-20 xl:mb-24 overflow-x-clip md:overflow-visible ">
+        <div className="relative rounded-2xl z-10 p-0.5 bg-conic-gradient  ">
           <ScrollParallax isAbsolutelyPositioned zIndex={50}>
             <div className="hidden  absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-light-6/40 backdrop-blur border border-light-1/10 rounded-2xl xl:flex">
               <ul className="flex">

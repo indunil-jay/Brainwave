@@ -7,8 +7,6 @@ const PricingPlan = () => {
   const [isMonthly, setIsMonthly] = useState<boolean>(true);
   const [isYearly, setIsYearly] = useState<boolean>(false);
 
-  console.log(isMonthly, isYearly);
-
   const changePriceToMonth = () => {
     if (isMonthly) return;
     setIsMonthly(true);
