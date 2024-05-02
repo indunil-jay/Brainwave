@@ -30,9 +30,9 @@ const PriceCard = ({ data, isYearly }: Props) => {
       key={data.id}
     >
       <div>
-        <h4 className={`h3 mb-6 ${data.titleColor && data.titleColor}`}>
+        <p className={`h3 mb-6 ${data.titleColor && data.titleColor}`}>
           {data.title}
-        </h4>
+        </p>
         <p className="p3 break-words min-h-[5rem]">{data.description}</p>
 
         <h1 className="h1 mb-4 min-h-[5rem]">

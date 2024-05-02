@@ -26,7 +26,9 @@ const FeatureOptionDataCard = () => {
               </div>
 
               {item.description && (
-                <p className="p3 mt-3 lg:pr-20">{item.description}</p>
+                <p className="p3 text-light-2 mt-3 lg:pr-20">
+                  {item.description}
+                </p>
               )}
             </li>
           ))}

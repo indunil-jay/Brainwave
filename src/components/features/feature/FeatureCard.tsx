@@ -21,7 +21,7 @@ const FeatureCard = ({ card }: FeatureCardProps) => {
     >
       <div className="p-[2.4rem] flex flex-col justify-around  rounded-3xl">
         <div>
-          <h3 className="h5 mb-5 capitalize">{card.title}</h3>
+          <h2 className="h5 mb-5 capitalize">{card.title}</h2>
           <p className="mb-6 p2 bg-transparent">{card.text}</p>
         </div>
 

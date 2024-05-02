@@ -12,7 +12,7 @@ const Creators = () => {
       <div className="container">
         <div className="flex flex-col justify-center items-center my-8">
           <h2 className="h2 capitalize">Generative AI made for creators.</h2>
-          <p className="p2 mt-3 text-light-4">
+          <p className="p2 mt-3 text-light-2">
             Brainwave unlocks the potential of AI-powered applications
           </p>
         </div>
@@ -35,7 +35,7 @@ const Creators = () => {
               <h3 className="text-[2rem]  leading-[1.5rem] mb-4">
                 Smartest AI
               </h3>
-              <p className="p3 font-light mb-[3.125rem] text-light-4 ">
+              <p className="p3 font-light mb-[3.125rem] text-light-2 ">
                 {" "}
                 Brainwave unlocks the potential of AI-powered applications
               </p>
@@ -52,7 +52,7 @@ const Creators = () => {
                         alt={`check-icon-${item.id}`}
                       />
                     </div>
-                    <p className="ml-4 ">{item.text}</p>
+                    <p className="ml-4 text-light-2 ">{item.text}</p>
                   </li>
                 ))}
               </ul>

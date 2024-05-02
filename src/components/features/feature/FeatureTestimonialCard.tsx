@@ -27,7 +27,7 @@ const FeatureTestimonialCard = ({ card }: FeatureTestimonialCardProps) => {
           />
         </div>
         <div className="mt-10">
-          <h4 className="text-[1.25rem] font-semibold">{card.username}</h4>
+          <p className="text-[1.25rem] font-semibold">{card.username}</p>
           <p className="p3 mt-2">{card.occupation} </p>
         </div>
       </div>

@@ -6,9 +6,9 @@ type Props = {
 const CompanyLogos = ({ styles }: Props) => {
   return (
     <div className={styles}>
-      <h5 className="font-grotesk font-light text-xs tracking-tagline  uppercase mb-6 text-center text-light-1/50">
+      <p className="font-grotesk font-light text-xs tracking-tagline  uppercase mb-6 text-center text-light-1/90">
         Helping People create beautiful content at
-      </h5>
+      </p>
       <ul className="flex">
         {companyLogos.map((logo, index) => {
           return (

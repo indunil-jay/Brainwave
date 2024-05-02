@@ -23,10 +23,10 @@ const Collaboration = () => {
                         height={24}
                         alt={`check-image-${item.id}`}
                       />
-                      <h5 className="h5 ml-5">{item.title}</h5>
+                      <h3 className="h5 ml-5">{item.title}</h3>
                     </div>
                     {item.text && (
-                      <p className="p2 mt-3 text-light-4">{item.text}</p>
+                      <p className="p2 mt-3 text-light-2">{item.text}</p>
                     )}
                   </li>
                 );
@@ -38,7 +38,7 @@ const Collaboration = () => {
           </div>
 
           <div className="relative flex flex-col items-center  space-y-20 lg:justify-self-end">
-            <p className="hidden lg:block p2 lg:w-[22rem] mt-8 mx-auto text-light-4">
+            <p className="hidden lg:block p2 lg:w-[22rem] mt-8 mx-auto text-light-2">
               {collabText}
             </p>
 

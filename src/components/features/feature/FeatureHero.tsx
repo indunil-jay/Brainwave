@@ -10,7 +10,7 @@ const FeatureHero = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full">
             <div className="w-full h-full flex flex-col  lg:justify-center lg:pr-[32%]">
               <h1 className="h1 mb-8">Main features of Brainwave</h1>
-              <p className="text-[1.5rem] leading-[2.25rem] text-light-3 ">
+              <p className="text-[1.5rem] leading-[2.25rem] text-light-2 ">
                 Here are some of the core features of Brainwavethat make it
                 stand out from other chat applications
               </p>

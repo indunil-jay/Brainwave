@@ -38,7 +38,7 @@ const Discover = () => {
                     <h2 className="mb-6 h2 text-start pr-12 lg:pr-4">
                       {discover.title}
                     </h2>
-                    <p className="p2 w-[80%] text-light-3  mb-8 ">
+                    <p className="p2 w-[80%] text-light-2  mb-8 ">
                       {discover.text}
                     </p>
                     <Link to="/how-to-use">
