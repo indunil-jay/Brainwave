@@ -13,7 +13,7 @@ const Guides = () => {
   };
   return (
     <Section id="guides" withBottomDividers={false} withPlus={false}>
-      <div className="2xl:w-[72%] xl:w-[84%] w-[94%]  relative mx-auto">
+      <div className="container mt-[-10rem] relative">
         <Search />
 
         <div className="mt-[5rem]">
@@ -53,10 +53,8 @@ const Guides = () => {
                   </button>
 
                   <div
-                    className={`transition-all translate-y-[100%]   ${
-                      currentOpen === index
-                        ? "grid grid-rows-[1fr] translate-y-[0%]"
-                        : " hidden"
+                    className={`transition-all   ${
+                      currentOpen === index ? "grid grid-rows-[1fr]" : " hidden"
                     }`}
                   >
                     <ul className="overflow-hidden">
