@@ -35,10 +35,10 @@ const Discover = () => {
                   className="grid  grid-cols-1 lg:grid-cols-[1.5fr_2fr] xl:grid-cols-[1.25fr_2fr] "
                 >
                   <div className="px-2 min-h-[20rem]  lg:h-auto">
-                    <h2 className="mb-6 h2 text-start pr-12 lg:pr-4">
+                    <h2 className="mb-6 h2 text-start  lg:pr-4">
                       {discover.title}
                     </h2>
-                    <p className="p2 w-[80%] text-light-2  mb-8 ">
+                    <p className="p2 md:w-[80%] text-light-2  mb-8 ">
                       {discover.text}
                     </p>
                     <Link to="/how-to-use">
@@ -91,7 +91,7 @@ const Discover = () => {
           })}
         </div>
 
-        <div className="flex gap-5 absolute bottom-0">
+        <div className="flex gap-5 absolute bottom-[-2rem]">
           <button
             onClick={goBack}
             className="group w-[3.8rem] h-[3.8rem] rounded-full bg-dark-7/40 flex items-center justify-center"
