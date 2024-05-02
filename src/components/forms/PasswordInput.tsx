@@ -11,7 +11,7 @@ const PasswordInput = ({
     <div>
       <div className="flex items-center justify-between">
         <label
-          htmlFor="id"
+          htmlFor="password"
           className="block text-sm font-medium leading-6 text-light-2"
         >
           {label}
