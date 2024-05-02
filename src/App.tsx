@@ -8,6 +8,7 @@ import SpinnerFullPage from "./components/SpinnerFullPage";
 // import RoadMap from "./pages/RoadMap";
 // import PricePage from "./pages/PricePage";
 // import HowToUsePage from "./pages/HowToUsePage";
+import PageNavigator from "./components/PageNavigator";
 
 const LandingPage = lazy(() => import("./pages/LandingPage"));
 const Signin = lazy(() => import("./pages/Signin"));
@@ -21,6 +22,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Suspense fallback={<SpinnerFullPage />}>
+        <PageNavigator />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/signin" element={<Signin />} />
