@@ -25,8 +25,9 @@ const Button = ({
     : "hover:text-light-1";
 
   const classBtn =
-    `group outline-none focus:outline-none focus-visible:ring   rounded-md font-code font-semibold py-2 xl:py-3 px-3.5 xl:px-4 2xl:px-6 flex items-center text-xs leading-5 uppercase transition-all border border-light-1/50 ${styles} ` +
-    white;
+    `group outline-none focus:outline-none focus-visible:ring  rounded-md font-code font-semibold py-2 xl:py-3 px-3.5 xl:px-4 2xl:px-6 flex items-center text-xs leading-5 uppercase transition-all border border-light-1/50 ${
+      styles && styles
+    } ` + white;
 
   const classSpan = `inline-block ${
     withArrow ? "flex items-center gap-2" : ""

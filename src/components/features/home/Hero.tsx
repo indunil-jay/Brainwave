@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <Section id="hero">
       <div
-        className="relative z-20 flex flex-col justify-center items-center mt-20 "
+        className="relative z-20 flex flex-col justify-center items-center mt-[8rem] "
         ref={parallaxRef}
       >
         <h1 className="h1 text-center">
