@@ -19,7 +19,7 @@ const WorksCard = ({ card }: Props) => {
 
   return (
     <div
-      className={`w-full  z-0  rounded-3xl grid place-items-center h-[30rem] sm:h-[38rem] md:h-[45rem] lg:h-[50rem] ${
+      className={`w-full  z-0  rounded-3xl grid place-items-center h-[34rem] sm:h-[38rem] md:h-[45rem] lg:h-[50rem] ${
         !isEven ? "lg:mt-[-5rem]" : "mt-[0rem]"
       } ${+card.id === 1 ? "bg-conic-gradient" : "bg-light-1/10"}`}
     >

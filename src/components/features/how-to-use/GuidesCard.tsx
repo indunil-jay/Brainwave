@@ -14,8 +14,8 @@ type GuidesDataProps = {
 const GuidesCard = ({ guide }: GuidesDataProps) => {
   return (
     <div className="pt-[6rem]" id={guide.url}>
-      <div className="flex justify-between items-center">
-        <h3 className="h3 py-1 mb-10">{guide.title}</h3>
+      <div className="flex items-center justify-between  py-1 mb-10">
+        <h3 className="text-[24px] md:h3 ">{guide.title}</h3>
         <Brackets>{`${guide.id > 9 ? guide.id : `0${guide.id}`}`}</Brackets>
       </div>
       <div className="rounded-3xl overflow-hidden pointer-events-none">

@@ -17,7 +17,7 @@ type Props = {
 };
 const Brackets = ({ children }: Props) => {
   return (
-    <div>
+    <div className="flex items-center gap-2">
       <LeftBracket />
       <span className="font-grotesk tracking-tagline text-[10px] sm:text-sm uppercase  text-light-1/50">
         {" "}

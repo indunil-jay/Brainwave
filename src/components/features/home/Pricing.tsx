@@ -4,6 +4,7 @@ import Button from "../../Button";
 import PriceCard from "../price/PriceCard";
 import Section from "../../Section";
 import Brackets from "../../design/Brackets";
+import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -56,14 +57,15 @@ const Pricing = () => {
         </div>
 
         {/*  */}
-        <div className="flex items-center justify-center mt-20  ">
-          <Button
-            href="/"
-            styles="border-none underline underline-offset-8  hover:no-underline "
-            ariaLabel="see-all-pricing-details-btn"
-          >
-            See The full Details
-          </Button>
+        <div className="flex items-center justify-center lg:mt-20  ">
+          <Link to="/signup">
+            <Button
+              styles="border-none underline underline-offset-8  hover:no-underline "
+              ariaLabel="see-all-pricing-details-btn"
+            >
+              See The full Details
+            </Button>
+          </Link>
         </div>
       </div>
     </Section>

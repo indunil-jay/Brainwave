@@ -29,7 +29,7 @@ const FeatureTestimonial = () => {
               )}
             </div>
           </div>
-          <div className="absolute bottom-2 md:bottom-5 flex gap-4  lg:flex-col lg:right-12 lg:bottom-1/2 translate-y-1/2 ">
+          <div className="absolute bottom-4 md:bottom-5 flex gap-4  lg:flex-col lg:right-12 lg:bottom-1/2 translate-y-1/2 ">
             {testimonailcards.map((_, index) => (
               <button
                 key={index}
