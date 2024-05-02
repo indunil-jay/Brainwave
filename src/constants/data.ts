@@ -770,6 +770,7 @@ export const accordingdata = [
 
 export const guides = [
   {
+    url: "/#sign-up",
     id: 1,
     title: "Sign up",
     image: guide01,
@@ -780,6 +781,7 @@ export const guides = [
   },
 
   {
+    url: "/#connect-with-AI-chatbot",
     id: 2,
     title: "Connect with AI Chatbot",
     image: guide02,
@@ -787,6 +789,7 @@ export const guides = [
       "Connect with the AI chatbot to start the conversation. The chatbot uses natural language processing to understand your queries and provide relevant responses.",
   },
   {
+    url: "/#get--personalized-advices",
     id: 3,
     title: "Get Personalized Advices",
     image: guide03,
@@ -794,10 +797,74 @@ export const guides = [
       "Based on the conversation with the AI chatbot, you will receive personalized recommendations related to your queries. The chatbot is trained to understand your preferences and provide customized suggestions.",
   },
   {
+    url: "/#explore-and-engage",
     id: 4,
     title: "Explore and Engage",
     image: guide04,
     text1:
       "Explore the recommendations provided by the AI chatbot and engage with the app. You can ask questions, provide feedback, and share your experience with the chatbot.",
+  },
+];
+
+export const sideNavdata = [
+  {
+    id: 1,
+    title: "Getting started",
+    links: [
+      { name: "Sign up", url: "/#sign-up" },
+      { name: "Connect with AI Chatbot", url: "/#connect-with-AI-chatbot" },
+      { name: "Get Personalized Advices", url: "/#get--personalized-advices" },
+      { name: "Explore and engage", url: "/#explore-and-engage" },
+    ],
+  },
+  {
+    id: 2,
+    title: "Pricing plans",
+    links: [
+      { name: "Sign up", url: "/" },
+      { name: "Connect with AI Chatbot", url: "/" },
+      { name: "Get Personalized Advices", url: "/" },
+      { name: "Explore and engage", url: "/" },
+    ],
+  },
+  {
+    id: 3,
+    title: "Core features",
+    links: [
+      { name: "Sign up", url: "/" },
+      { name: "Connect with AI Chatbot", url: "/" },
+      { name: "Get Personalized Advices", url: "/" },
+      { name: "Explore and engage", url: "/" },
+    ],
+  },
+  {
+    id: 4,
+    title: "Roadmap",
+    links: [
+      { name: "Sign up", url: "/" },
+      { name: "Connect with AI Chatbot", url: "/" },
+      { name: "Get Personalized Advices", url: "/" },
+      { name: "Explore and engage", url: "/" },
+    ],
+  },
+  {
+    id: 5,
+    title: "Enhanced features",
+    links: [
+      { name: "Sign up", url: "/" },
+      { name: "Connect with AI Chatbot", url: "/" },
+      { name: "Get Personalized Advices", url: "/" },
+      { name: "Explore and engage", url: "/" },
+    ],
+  },
+  {
+    id: 6,
+    title: "Help and support",
+    links: [
+      { name: "Sign up", url: "/" },
+      { name: "Connect with AI Chatbot", url: "/" },
+      { name: "Get Personalized Advices", url: "/" },
+      { name: "Explore and engage", url: "/" },
+    ],
   },
 ];

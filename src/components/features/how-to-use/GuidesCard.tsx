@@ -7,12 +7,13 @@ type GuidesDataProps = {
     text1: string;
     text2?: string;
     image: string;
+    url: string;
   };
 };
 
 const GuidesCard = ({ guide }: GuidesDataProps) => {
   return (
-    <div className="mb-8">
+    <div className="pt-[6rem]" id={guide.url}>
       <div className="flex justify-between items-center">
         <h3 className="h3 py-1 mb-10">{guide.title}</h3>
         <Brackets>{`${guide.id > 9 ? guide.id : `0${guide.id}`}`}</Brackets>
