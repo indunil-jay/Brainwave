@@ -108,7 +108,10 @@ import guide02 from "./guide/2.png";
 import guide03 from "./guide/3.png";
 import guide04 from "./guide/4.png";
 
+import helpimg from "./help.png";
+
 export {
+  helpimg,
   guide01,
   guide02,
   guide03,

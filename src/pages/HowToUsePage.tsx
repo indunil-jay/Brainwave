@@ -1,3 +1,4 @@
+import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Guides from "../components/features/how-to-use/Guides";
@@ -9,6 +10,7 @@ const HowToUsePage = () => {
       <Header />
       <UseHero />
       <Guides />
+      <Cta />
       <Footer />
     </>
   );
